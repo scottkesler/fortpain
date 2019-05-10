@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fortpain/static/css/main.19393e92.chunk.css",
+    "main.js": "/fortpain/static/js/main.9a6223f9.chunk.js",
+    "main.js.map": "/fortpain/static/js/main.9a6223f9.chunk.js.map",
+    "runtime~main.js": "/fortpain/static/js/runtime~main.6b0fd081.js",
+    "runtime~main.js.map": "/fortpain/static/js/runtime~main.6b0fd081.js.map",
+    "static/js/2.b41502e9.chunk.js": "/fortpain/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/fortpain/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/fortpain/index.html",
+    "precache-manifest.6246b56dca25b25540fbbbf8f90e92c3.js": "/fortpain/precache-manifest.6246b56dca25b25540fbbbf8f90e92c3.js",
+    "service-worker.js": "/fortpain/service-worker.js",
+    "static/css/main.19393e92.chunk.css.map": "/fortpain/static/css/main.19393e92.chunk.css.map",
+    "static/media/logo.svg": "/fortpain/static/media/logo.5d5d9eef.svg"
+  }
+}
