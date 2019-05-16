@@ -16,7 +16,7 @@ const App: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React -- edited this in vim on macbook
+          Learn React -- does this keep the custom domain
         </a>
       </header>
     </div>
