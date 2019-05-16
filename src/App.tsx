@@ -10,6 +10,7 @@ const App: React.FC = () => {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        Whee, not deleting custom command.
         <a
           className="App-link"
           href="https://reactjs.org"
