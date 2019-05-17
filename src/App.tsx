@@ -10,13 +10,14 @@ const App: React.FC = () => {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        Whee, not deleting custom command.
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React -- does this keep the custom domain
         </a>
       </header>
     </div>
