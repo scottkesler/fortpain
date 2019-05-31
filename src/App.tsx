@@ -8,17 +8,8 @@ const App: React.FC = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        We could use this for the studio webpage.
         </p>
-          Built this and deployed with Netlify
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React -- does this keep the custom domain
-        </a>
       </header>
     </div>
   );
