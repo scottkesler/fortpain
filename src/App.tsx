@@ -8,7 +8,7 @@ const App: React.FC = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        We could use this for the studio webpage.
+
         </p>
       </header>
     </div>
