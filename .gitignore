@@ -1,3 +1,7 @@
 node_modules/
 .vscode/
-
+dist/
+*.local
+.DS_Store
+*.tsbuildinfo
+vite.config.d.ts

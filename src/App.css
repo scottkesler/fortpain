@@ -1,33 +1,95 @@
-.App {
-  text-align: center;
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.app__title {
+  margin: 0;
+  font-size: 1.875rem;
+  color: var(--color-crimson);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__count {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}
+
+.search-bar {
+  margin-bottom: 1.25rem;
+}
+
+.search-bar__input {
+  width: 100%;
+  padding: 0.625rem 0.875rem;
+  font-size: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  background-color: var(--color-surface);
+}
+
+.search-bar__input:focus {
+  outline: 2px solid var(--color-crimson);
+  outline-offset: 1px;
+  border-color: transparent;
+}
+
+.roster-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.roster-table th {
+  padding: 0;
+  text-align: left;
+  background-color: var(--color-crimson);
+}
+
+.roster-table__sort-button {
+  width: 100%;
+  padding: 0.75rem 0.875rem;
+  font: inherit;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.roster-table__sort-button:hover {
+  background-color: var(--color-crimson-dark);
+}
+
+.roster-table td {
+  padding: 0.625rem 0.875rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.9375rem;
+}
+
+.roster-table tbody tr:hover {
+  background-color: var(--color-row-hover);
+}
+
+.roster-empty {
+  padding: 2rem;
+  text-align: center;
+  color: var(--color-muted);
+  background-color: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: 0.5rem;
 }
