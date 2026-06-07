@@ -25,8 +25,37 @@
   font-size: 0.875rem;
 }
 
-.search-bar {
+.app__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem;
   margin-bottom: 1.25rem;
+}
+
+.group-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.group-filter__label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-muted);
+}
+
+.group-filter__select {
+  padding: 0.625rem 0.875rem;
+  font-size: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  background-color: var(--color-surface);
+  cursor: pointer;
+}
+
+.search-bar {
+  flex: 1 1 16rem;
 }
 
 .search-bar__input {
@@ -38,6 +67,7 @@
   background-color: var(--color-surface);
 }
 
+.group-filter__select:focus,
 .search-bar__input:focus {
   outline: 2px solid var(--color-crimson);
   outline-offset: 1px;
@@ -92,4 +122,73 @@
   background-color: var(--color-surface);
   border: 1px dashed var(--color-border);
   border-radius: 0.5rem;
+}
+
+/* Mobile (primary target): stacked controls and a compact, one-line-per-player
+   table. Hometown is dropped in portrait (it returns in landscape, below). */
+@media (max-width: 640px) {
+  .app {
+    padding: 1.25rem 0.75rem 3rem;
+  }
+
+  .app__title {
+    font-size: 1.5rem;
+  }
+
+  .app__controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .group-filter,
+  .search-bar {
+    flex: none;
+    width: 100%;
+  }
+
+  .group-filter__select {
+    width: 100%;
+  }
+
+  /* Comfortable touch targets on phones. */
+  .group-filter__select,
+  .search-bar__input {
+    min-height: 44px;
+  }
+
+  /* Tighten the table so each player fits on a single line. */
+  .roster-table {
+    font-size: 0.8125rem;
+  }
+
+  .roster-table__sort-button {
+    padding: 0.5rem 0.5rem;
+  }
+
+  .roster-table td {
+    padding: 0.5rem 0.5rem;
+    white-space: nowrap;
+  }
+
+  /* The name is the only flexible column: it absorbs leftover width and
+     truncates with an ellipsis instead of wrapping onto a second line. */
+  .roster-table th[data-column='name'] {
+    width: 100%;
+  }
+
+  .roster-table td[data-label='Name'] {
+    max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* Hometown is hidden only on narrow portrait screens; rotating to landscape
+   gives enough width to show it again. */
+@media (max-width: 640px) and (orientation: portrait) {
+  .roster-table th[data-column='hometown'],
+  .roster-table td[data-label='Hometown'] {
+    display: none;
+  }
 }

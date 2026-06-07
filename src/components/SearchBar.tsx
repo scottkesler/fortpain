@@ -11,7 +11,7 @@ function SearchBar({ value, onChange }: SearchBarProps) {
         className="search-bar__input"
         value={value}
         onChange={(changeEvent) => onChange(changeEvent.target.value)}
-        placeholder="Search players by name, position, hometown…"
+        placeholder="Search by name, number, or position…"
         aria-label="Search players"
       />
     </div>

@@ -3,10 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alabama Roster</title>
+    <title>Fortpain — Team Rosters</title>
+    <style>
+      :root {
+        --color-crimson: #9e1b32;
+        --color-text: #1a1a1a;
+        --color-muted: #6b7280;
+        --color-border: #e5e7eb;
+        --color-surface: #ffffff;
+        --color-bg: #f8f8f8;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 1rem;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
+          Arial, sans-serif;
+        color: var(--color-text);
+        background-color: var(--color-bg);
+        -webkit-font-smoothing: antialiased;
+      }
+      .landing {
+        width: 100%;
+        max-width: 640px;
+        text-align: center;
+      }
+      .landing__title {
+        margin: 0 0 0.25rem;
+        font-size: 2.25rem;
+        color: var(--color-crimson);
+      }
+      .landing__subtitle {
+        margin: 0 0 2rem;
+        color: var(--color-muted);
+      }
+      .team-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 1rem;
+      }
+      .team-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.25rem 1.5rem;
+        text-decoration: none;
+        color: inherit;
+        background-color: var(--color-surface);
+        border: 1px solid var(--color-border);
+        border-radius: 0.75rem;
+        transition: border-color 0.15s ease, transform 0.15s ease;
+      }
+      .team-card:hover {
+        border-color: var(--color-crimson);
+        transform: translateY(-1px);
+      }
+      .team-card__name {
+        font-size: 1.125rem;
+        font-weight: 600;
+      }
+      .team-card__arrow {
+        color: var(--color-crimson);
+        font-size: 1.25rem;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <main class="landing">
+      <h1 class="landing__title">Fortpain</h1>
+      <p class="landing__subtitle">Team rosters</p>
+      <ul class="team-list">
+        <li>
+          <a class="team-card" href="/alabama/">
+            <span class="team-card__name">Alabama Crimson Tide</span>
+            <span class="team-card__arrow" aria-hidden="true">&rarr;</span>
+          </a>
+        </li>
+      </ul>
+    </main>
   </body>
 </html>

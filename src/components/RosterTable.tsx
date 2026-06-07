@@ -33,7 +33,11 @@ function RosterTable({ players, sortState, onSort }: RosterTableProps) {
           {ROSTER_COLUMNS.map((column) => {
             const isSorted = sortState.column === column.key;
             return (
-              <th key={column.key} aria-sort={isSorted ? (sortState.direction === 'asc' ? 'ascending' : 'descending') : 'none'}>
+              <th
+                key={column.key}
+                data-column={column.key}
+                aria-sort={isSorted ? (sortState.direction === 'asc' ? 'ascending' : 'descending') : 'none'}
+              >
                 <button
                   type="button"
                   className="roster-table__sort-button"
@@ -50,11 +54,11 @@ function RosterTable({ players, sortState, onSort }: RosterTableProps) {
       <tbody>
         {players.map((player) => (
           <tr key={`${player.jersey_number}-${player.name}`}>
-            <td>{player.name}</td>
-            <td>{player.jersey_number}</td>
-            <td>{player.position}</td>
-            <td>{player.academic_year}</td>
-            <td>{player.hometown}</td>
+            <td data-label="Name">{player.name}</td>
+            <td data-label="Jersey #">{player.jersey_number}</td>
+            <td data-label="Position">{player.position}</td>
+            <td data-label="Academic Year">{player.academic_year}</td>
+            <td data-label="Hometown">{player.hometown}</td>
           </tr>
         ))}
       </tbody>
