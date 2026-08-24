@@ -43,10 +43,10 @@ function ScheduleApp() {
           <span aria-hidden="true">&larr;</span> Roster
         </a>
         <a className="app__nav-link" href="/alabama/depth-chart/">
-          Depth chart <span aria-hidden="true">&rarr;</span>
+          AL Depth Chart <span aria-hidden="true">&rarr;</span>
         </a>
         <a className="app__nav-link" href="/alabama/sec-schedule/">
-          Full SEC schedule <span aria-hidden="true">&rarr;</span>
+          Full SEC Schedule <span aria-hidden="true">&rarr;</span>
         </a>
       </nav>
 
