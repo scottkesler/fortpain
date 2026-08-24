@@ -268,7 +268,7 @@
   gap: 0.3125rem;
 }
 
-/* Redundant wherever the Academic Year column is on screen. */
+/* Redundant wherever the Year column is on screen. */
 .player-info-panel__item--year {
   display: none;
 }
@@ -374,12 +374,12 @@
   }
 }
 
-/* Six columns plus the name will not fit a portrait phone. Academic Year is the
+/* Six columns plus the name will not fit a portrait phone. Year is the
    one most easily looked up elsewhere, so it moves into the Additional Info
    panel and gives its width back to the name. Landscape keeps the column. */
 @media (max-width: 640px) and (orientation: portrait) {
   .roster-table th[data-column='academic_year'],
-  .roster-table td[data-label='Academic Year'] {
+  .roster-table td[data-label='Year'] {
     display: none;
   }
 

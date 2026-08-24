@@ -125,7 +125,7 @@ function RosterTable({ rows, sortState, onSort }: RosterTableProps) {
               <td data-label="Depth" title={depthTitle(row)}>
                 {row.depth ? row.depth.rank : '—'}
               </td>
-              <td data-label="Academic Year">{row.academic_year}</td>
+              <td data-label="Year">{row.academic_year}</td>
               <td data-label="Ht|Wt">{formatHeightWeight(row)}</td>
               <td className="roster-table__info-cell">
                 <button
@@ -154,7 +154,7 @@ function RosterTable({ rows, sortState, onSort }: RosterTableProps) {
                   aria-hidden={!isOpen}
                 >
                   <dl className="player-info-panel__list">
-                    {/* Shown only where the Academic Year column is dropped
+                    {/* Shown only where the Year column is dropped
                         for width (see App.css). */}
                     <div className="player-info-panel__item player-info-panel__item--year">
                       <dt>Year</dt>

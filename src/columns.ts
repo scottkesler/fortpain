@@ -52,7 +52,7 @@ export const ROSTER_COLUMNS: ColumnDefinition[] = [
   },
   {
     key: 'academic_year',
-    label: 'Academic Year',
+    label: 'Year',
     shortLabel: 'Yr',
     numeric: false,
     sortValue: (row) => row.academic_year,
