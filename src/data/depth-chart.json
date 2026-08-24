@@ -1,0 +1,205 @@
+{
+  "opponent": null,
+  "updated": "2026-08-24",
+  "note": "Weekly depth chart. Player names must match src/data/players.json exactly — run `npm run validate:depth` after editing. Order within each slot is the depth: first name is the starter.",
+  "units": [
+    {
+      "id": "offense",
+      "label": "Offense",
+      "scheme": "Pro Spread",
+      "slots": [
+        {
+          "code": "WR-X",
+          "label": "Wide Receiver (X)",
+          "players": ["Derek Meadows", "Cederian Morgan", "MJ Chirgwin"]
+        },
+        {
+          "code": "WR-Z",
+          "label": "Wide Receiver (Z)",
+          "players": ["Ryan Coleman-Williams", "Tyler Henderson", "Maurice Mathis Jr."]
+        },
+        {
+          "code": "WR-H",
+          "label": "Wide Receiver (H)",
+          "players": ["Lotzeir Brooks", "Rico Scott", "Aubrey Walker", "Amari Sabb"]
+        },
+        {
+          "code": "LT",
+          "label": "Left Tackle",
+          "players": ["Jackson Lloyd", "Tyrell Miller", "Jared Graham"]
+        },
+        {
+          "code": "LG",
+          "label": "Left Guard",
+          "players": ["William Sanders", "Mal Waldrep Jr.", "Casey Poe"]
+        },
+        {
+          "code": "C",
+          "label": "Center",
+          "players": ["Racin Delgatty", "Kaden Strayhorn"]
+        },
+        {
+          "code": "RG",
+          "label": "Right Guard",
+          "players": ["Michael Carroll", "Ethan Fields", "Chris Booker"]
+        },
+        {
+          "code": "RT",
+          "label": "Right Tackle",
+          "players": ["Jayvin James", "Nick Brooks", "Ty Haywood"]
+        },
+        {
+          "code": "TE",
+          "label": "Tight End",
+          "players": [
+            "Kaleb Edwards",
+            "Josh Ford",
+            "Marshall Pritchett",
+            "Danny Lewis Jr.",
+            "Jay Lindsey"
+          ]
+        },
+        {
+          "code": "QB",
+          "label": "Quarterback",
+          "players": [
+            "Austin Mack",
+            "Keelon Russell",
+            "Jett Thomalla",
+            "John Gazzaniga",
+            "Tayden-Evan Kaawa"
+          ]
+        },
+        {
+          "code": "RB",
+          "label": "Running Back",
+          "players": ["Daniel Hill", "Kevin Riley", "EJ Crowell", "Trae’shawn Brown"]
+        }
+      ]
+    },
+    {
+      "id": "defense",
+      "label": "Defense",
+      "scheme": "4-2-5",
+      "slots": [
+        {
+          "code": "DE",
+          "label": "Defensive End",
+          "players": ["Jah-Marien Latham", "Desmond Umeozulu", "Fatutoa Henry"]
+        },
+        {
+          "code": "NT",
+          "label": "Nose Tackle",
+          "players": [
+            "Kedrick Bingley-Jones",
+            "Terrance Green",
+            "Jeremiah Beaman",
+            "Isaia Faga"
+          ]
+        },
+        {
+          "code": "DT",
+          "label": "Defensive Tackle",
+          "players": [
+            "London Simmons",
+            "Devan Thompkins",
+            "Edric Hill",
+            "Steve Bolo Mboumoua"
+          ]
+        },
+        {
+          "code": "WOLF",
+          "label": "Wolf (Edge)",
+          "players": [
+            "Yhonzae Pierre",
+            "Justin Hill",
+            "Xavier Griffin",
+            "Jamarion Matthews"
+          ]
+        },
+        {
+          "code": "STING",
+          "label": "Sting (Edge)",
+          "players": ["QB Reese", "Luke Metz", "Abduall Sanders Jr."]
+        },
+        {
+          "code": "MLB",
+          "label": "Middle Linebacker",
+          "players": ["Caleb Woodson", "Cayden Jones", "Duke Johnson II", "Zay Hall"]
+        },
+        {
+          "code": "LCB",
+          "label": "Left Cornerback",
+          "players": [
+            "Zabien Brown",
+            "Chuck McDonald III",
+            "Zyan Gibson",
+            "Nick Sherman"
+          ]
+        },
+        {
+          "code": "SS",
+          "label": "Strong Safety",
+          "players": ["Bray Hubbard", "Ivan Taylor", "Jireh Edwards"]
+        },
+        {
+          "code": "FS",
+          "label": "Free Safety",
+          "players": ["Keon Sabb", "Dre Kirkpatrick Jr."]
+        },
+        {
+          "code": "RCB",
+          "label": "Right Cornerback",
+          "players": ["Dijon Lee Jr.", "Carmelo O'Neal", "Jorden Edmonds"]
+        },
+        {
+          "code": "HUSKY",
+          "label": "Husky (Nickel)",
+          "players": ["Red Morgan", "Zavier Mincey", "Rihyael Kelley"]
+        }
+      ]
+    },
+    {
+      "id": "special-teams",
+      "label": "Special Teams",
+      "scheme": null,
+      "slots": [
+        {
+          "code": "PT",
+          "label": "Punter",
+          "players": ["Adam Watford", "Alex Asparuhov", "Anderson Green"]
+        },
+        {
+          "code": "PK",
+          "label": "Place Kicker",
+          "players": ["Lorcan Quinn", "Conor Talty", "Tucker Cornelius"]
+        },
+        {
+          "code": "KO",
+          "label": "Kickoff",
+          "players": ["Lorcan Quinn", "Conor Talty", "Tucker Cornelius"]
+        },
+        {
+          "code": "LS",
+          "label": "Long Snapper",
+          "players": ["Alex Rozier", "Ethan Stangle", "Jay Williams", "Eli Deutsch"]
+        },
+        {
+          "code": "H",
+          "label": "Holder",
+          "players": ["Adam Watford", "Alex Asparuhov", "Anderson Green"]
+        },
+        {
+          "code": "PR",
+          "label": "Punt Returner",
+          "players": ["Dijon Lee Jr.", "Ryan Coleman-Williams"]
+        },
+        {
+          "code": "KR",
+          "label": "Kick Returner",
+          "players": ["Lotzeir Brooks", "Rico Scott"]
+        }
+      ]
+    }
+  ]
+}

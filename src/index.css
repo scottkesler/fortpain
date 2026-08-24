@@ -22,3 +22,89 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
 }
+
+/* ---------------------------------------------------------------------------
+   Page shell — shared by the roster and depth chart pages.
+   --------------------------------------------------------------------------- */
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.app__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.app__title {
+  margin: 0;
+  font-size: 1.875rem;
+  color: var(--color-crimson);
+}
+
+.app__count {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}
+
+.app__nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.app__nav-link {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-crimson);
+  text-decoration: none;
+}
+
+.app__nav-link:hover {
+  text-decoration: underline;
+}
+
+.app__nav-link:focus-visible {
+  outline: 2px solid var(--color-crimson);
+  outline-offset: 2px;
+  border-radius: 0.25rem;
+}
+
+/* Visible only to screen readers. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.roster-empty {
+  padding: 2rem;
+  text-align: center;
+  color: var(--color-muted);
+  background-color: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .app {
+    padding: 1.25rem 0.75rem 3rem;
+  }
+
+  .app__title {
+    font-size: 1.5rem;
+  }
+}

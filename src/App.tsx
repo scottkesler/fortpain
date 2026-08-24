@@ -2,8 +2,10 @@ import { useEffect, useMemo, useState } from 'react';
 import Fuse from 'fuse.js';
 import { ROSTER_COLUMNS } from './columns';
 import { ALL_PLAYERS_GROUP_ID, playerInGroup } from './groups';
+import { joinRosterToDepthChart } from './depth-chart';
 import { getRoster } from './data/roster-service';
-import type { Player, SortableColumn, SortState } from './types';
+import { getDepthChart } from './data/depth-chart-service';
+import type { RosterRow, SortableColumn, SortState } from './types';
 import SearchBar from './components/SearchBar';
 import GroupFilter from './components/GroupFilter';
 import RosterTable from './components/RosterTable';
@@ -11,32 +13,34 @@ import './App.css';
 
 type LoadStatus = 'loading' | 'ready' | 'error';
 
-const numericColumns = new Set<SortableColumn>(
-  ROSTER_COLUMNS.filter((column) => column.numeric).map((column) => column.key),
+const columnsByKey = new Map(
+  ROSTER_COLUMNS.map((column) => [column.key, column]),
 );
 
-/** Compare two players on the active sort column, respecting numeric columns. */
-function comparePlayers(
-  firstPlayer: Player,
-  secondPlayer: Player,
+/** Compare two rows on the active sort column, using that column's accessor. */
+function compareRows(
+  firstRow: RosterRow,
+  secondRow: RosterRow,
   sortState: SortState,
 ): number {
   const { column, direction } = sortState;
-  const firstValue = firstPlayer[column];
-  const secondValue = secondPlayer[column];
-
-  let comparison: number;
-  if (numericColumns.has(column)) {
-    comparison = Number(firstValue) - Number(secondValue);
-  } else {
-    comparison = firstValue.localeCompare(secondValue);
+  const definition = columnsByKey.get(column);
+  if (!definition) {
+    return 0;
   }
+
+  const firstValue = definition.sortValue(firstRow);
+  const secondValue = definition.sortValue(secondRow);
+
+  const comparison = definition.numeric
+    ? Number(firstValue) - Number(secondValue)
+    : String(firstValue).localeCompare(String(secondValue));
 
   return direction === 'asc' ? comparison : -comparison;
 }
 
 function App() {
-  const [players, setPlayers] = useState<Player[]>([]);
+  const [rosterRows, setRosterRows] = useState<RosterRow[]>([]);
   const [loadStatus, setLoadStatus] = useState<LoadStatus>('loading');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedGroupId, setSelectedGroupId] = useState(ALL_PLAYERS_GROUP_ID);
@@ -47,10 +51,10 @@ function App() {
 
   useEffect(() => {
     let isActive = true;
-    getRoster()
-      .then((loadedPlayers) => {
+    Promise.all([getRoster(), getDepthChart()])
+      .then(([loadedPlayers, depthChart]) => {
         if (isActive) {
-          setPlayers(loadedPlayers);
+          setRosterRows(joinRosterToDepthChart(loadedPlayers, depthChart));
           setLoadStatus('ready');
         }
       })
@@ -69,27 +73,27 @@ function App() {
   // and the threshold allows for thumb-typed typos on mobile.
   const playerSearchIndex = useMemo(
     () =>
-      new Fuse(players, {
+      new Fuse(rosterRows, {
         keys: ['name', 'jersey_number', 'position'],
         threshold: 0.4,
         ignoreLocation: true,
       }),
-    [players],
+    [rosterRows],
   );
 
-  const visiblePlayers = useMemo(() => {
+  const visibleRows = useMemo(() => {
     const trimmedQuery = searchQuery.trim();
-    const searchedPlayers =
+    const searchedRows =
       trimmedQuery === ''
-        ? players
+        ? rosterRows
         : playerSearchIndex.search(trimmedQuery).map((result) => result.item);
-    const matchingPlayers = searchedPlayers.filter((player) =>
-      playerInGroup(player, selectedGroupId),
+    const matchingRows = searchedRows.filter((row) =>
+      playerInGroup(row, selectedGroupId),
     );
-    return [...matchingPlayers].sort((firstPlayer, secondPlayer) =>
-      comparePlayers(firstPlayer, secondPlayer, sortState),
+    return [...matchingRows].sort((firstRow, secondRow) =>
+      compareRows(firstRow, secondRow, sortState),
     );
-  }, [players, playerSearchIndex, searchQuery, selectedGroupId, sortState]);
+  }, [rosterRows, playerSearchIndex, searchQuery, selectedGroupId, sortState]);
 
   function handleSort(column: SortableColumn) {
     setSortState((previousSortState) => {
@@ -109,10 +113,16 @@ function App() {
         <h1 className="app__title">Alabama Roster</h1>
         <p className="app__count">
           {loadStatus === 'ready'
-            ? `${visiblePlayers.length} of ${players.length} players`
-            : ' '}
+            ? `${visibleRows.length} of ${rosterRows.length} players`
+            : ' '}
         </p>
       </header>
+
+      <nav className="app__nav">
+        <a className="app__nav-link" href="/alabama/depth-chart/">
+          Depth chart <span aria-hidden="true">&rarr;</span>
+        </a>
+      </nav>
 
       {loadStatus === 'loading' ? (
         <p className="roster-empty" role="status">
@@ -130,7 +140,7 @@ function App() {
           </div>
 
           <RosterTable
-            players={visiblePlayers}
+            rows={visibleRows}
             sortState={sortState}
             onSort={handleSort}
           />

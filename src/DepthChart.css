@@ -1,0 +1,189 @@
+/* Depth chart page: one section per unit, positions down the left and depth
+   across the columns — the layout a printed depth chart uses. */
+
+.depth-unit {
+  margin-bottom: 2rem;
+}
+
+.depth-unit__heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.625rem;
+  margin: 0 0 0.625rem;
+  font-size: 1.125rem;
+  color: var(--color-crimson);
+}
+
+.depth-unit__scheme {
+  padding: 0.125rem 0.5rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+}
+
+/* Wide charts scroll inside their own section rather than the page body. */
+.depth-unit__scroller {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+}
+
+/* Size to the widest row so long names are never squeezed or clipped — the
+   scroller above handles the overflow — while narrow units still fill the page. */
+.depth-table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  background-color: var(--color-surface);
+}
+
+.depth-table thead th {
+  padding: 0.625rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #ffffff;
+  background-color: var(--color-crimson);
+  white-space: nowrap;
+}
+
+.depth-table__pos-heading {
+  width: 5rem;
+}
+
+/* The position code anchors each row, so it stays put while the depth columns
+   scroll sideways under it. */
+.depth-table__pos {
+  position: sticky;
+  left: 0;
+  width: 5rem;
+  padding: 0.625rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-align: left;
+  color: var(--color-crimson);
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.depth-table__cell {
+  padding: 0.5rem 0.75rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.depth-table tbody tr:hover .depth-table__cell,
+.depth-table tbody tr:hover .depth-table__pos {
+  background-color: var(--color-row-hover);
+}
+
+.depth-table__cell--starter .depth-player__name {
+  font-weight: 600;
+}
+
+.depth-player__number {
+  display: inline-block;
+  min-width: 1.75rem;
+  margin-right: 0.375rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-muted);
+}
+
+.depth-player__year {
+  margin-left: 0.375rem;
+  font-size: 0.75rem;
+  color: var(--color-muted);
+}
+
+.depth-player__year--unknown {
+  color: var(--color-crimson);
+  font-style: italic;
+}
+
+/* Phones: a five-column grid of names never fits, so each position becomes its
+   own card with the depth labelled down the side. */
+@media (max-width: 640px) {
+  .depth-unit__scroller {
+    overflow-x: visible;
+    border: none;
+    border-radius: 0;
+  }
+
+  .depth-table,
+  .depth-table tbody,
+  .depth-table tr,
+  .depth-table .depth-table__pos,
+  .depth-table .depth-table__cell {
+    display: block;
+  }
+
+  .depth-table thead {
+    /* Column headings are replaced by the per-cell labels below. */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+
+  .depth-table tr {
+    margin-bottom: 0.75rem;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  .depth-table .depth-table__pos {
+    position: static;
+    width: auto;
+    padding: 0.5rem 0.75rem;
+    color: #ffffff;
+    background-color: var(--color-crimson);
+    border: none;
+  }
+
+  .depth-table .depth-table__cell {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    white-space: normal;
+  }
+
+  /* Positions with fewer than the maximum number of players leave empty cells;
+     drop them rather than render blank card rows. */
+  .depth-table .depth-table__cell--empty {
+    display: none;
+  }
+
+  .depth-table .depth-table__cell::before {
+    content: attr(data-label);
+    flex: none;
+    width: 2.25rem;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  .depth-player__number {
+    min-width: 1.5rem;
+    margin-right: 0;
+  }
+
+  .depth-player__name {
+    flex: 1;
+  }
+}

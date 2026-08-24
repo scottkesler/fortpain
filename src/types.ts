@@ -17,16 +17,64 @@ export interface Player {
   db_role?: 'CB' | 'S';
 }
 
+/** One position on the depth chart, with its players ordered starter-first. */
+export interface DepthSlot {
+  /** Short code shown in the Pos column (e.g. "WR-X", "MLB"). */
+  code: string;
+  /** Spelled-out position (e.g. "Middle Linebacker"). */
+  label: string;
+  /** Player names, in depth order. Must match roster names exactly. */
+  players: string[];
+}
+
+/** A side of the ball: one section of the depth chart page. */
+export interface DepthUnit {
+  id: string;
+  label: string;
+  /** Scheme shown beside the unit heading (e.g. "4-2-5"); null for none. */
+  scheme: string | null;
+  slots: DepthSlot[];
+}
+
+/** The weekly depth chart as stored in depth-chart.json. */
+export interface DepthChart {
+  /** Upcoming opponent, or null before one is set for the week. */
+  opponent: string | null;
+  /** ISO date the chart was last revised. */
+  updated: string;
+  units: DepthUnit[];
+}
+
+/** Where a player sits on the depth chart, resolved for the roster table. */
+export interface DepthAssignment {
+  unitId: string;
+  slotCode: string;
+  slotLabel: string;
+  /** 1 = starter, 2 = second string, and so on. */
+  rank: number;
+}
+
 /**
- * Columns that the roster table can be sorted by (the displayed columns).
- * Hometown, height, and weight live in the per-player Additional Info panel
- * rather than the table, so they are not sortable.
+ * A roster player joined to their spot on the current depth chart. This is the
+ * row shape the roster table renders; `depth` is null for players who are not
+ * on the chart this week.
+ */
+export interface RosterRow extends Player {
+  depth: DepthAssignment | null;
+}
+
+/**
+ * Columns the roster table can be sorted by. `ht_wt` and `depth` are derived
+ * rather than raw player fields, so columns carry their own sort accessor
+ * (see columns.ts). Hometown lives in the Additional Info panel.
  */
 export type SortableColumn =
   | 'name'
   | 'jersey_number'
   | 'position'
-  | 'academic_year';
+  | 'academic_year'
+  | 'ht_wt'
+  | 'depth';
 
 export type SortDirection = 'asc' | 'desc';
 
