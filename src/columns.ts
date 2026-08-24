@@ -44,6 +44,13 @@ export const ROSTER_COLUMNS: ColumnDefinition[] = [
     sortValue: (row) => row.position,
   },
   {
+    key: 'depth',
+    label: 'Depth',
+    shortLabel: 'Dep',
+    numeric: true,
+    sortValue: (row) => row.depth?.rank ?? UNRANKED_SORT_VALUE,
+  },
+  {
     key: 'academic_year',
     label: 'Academic Year',
     shortLabel: 'Yr',
@@ -56,12 +63,5 @@ export const ROSTER_COLUMNS: ColumnDefinition[] = [
     shortLabel: 'Ht|Wt',
     numeric: true,
     sortValue: heightWeightSortValue,
-  },
-  {
-    key: 'depth',
-    label: 'Depth',
-    shortLabel: 'Dep',
-    numeric: true,
-    sortValue: (row) => row.depth?.rank ?? UNRANKED_SORT_VALUE,
   },
 ];
