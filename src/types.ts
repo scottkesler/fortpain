@@ -82,3 +82,19 @@ export interface SortState {
   column: SortableColumn;
   direction: SortDirection;
 }
+
+/** One game on the schedule, as stored in schedule.json. */
+export interface ScheduleGame {
+  /** ISO date, e.g. "2026-09-05". */
+  date: string;
+  opponent: string;
+  location: 'home' | 'away';
+  /** Kickoff time, e.g. "12:00 PM ET"; null while TBD. */
+  time: string | null;
+}
+
+/** A season's full schedule as stored in schedule.json. */
+export interface Schedule {
+  season: number;
+  games: ScheduleGame[];
+}

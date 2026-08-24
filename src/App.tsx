@@ -122,6 +122,9 @@ function App() {
         <a className="app__nav-link" href="/alabama/depth-chart/">
           Depth chart <span aria-hidden="true">&rarr;</span>
         </a>
+        <a className="app__nav-link" href="/alabama/schedule/">
+          Schedule <span aria-hidden="true">&rarr;</span>
+        </a>
       </nav>
 
       {loadStatus === 'loading' ? (

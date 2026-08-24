@@ -1,0 +1,88 @@
+/* Schedule page: one row per game, in a plain table like a printed schedule. */
+
+.schedule-table__scroller {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--color-surface);
+}
+
+.schedule-table thead th {
+  padding: 0.625rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #ffffff;
+  background-color: var(--color-crimson);
+  white-space: nowrap;
+}
+
+.schedule-table td {
+  padding: 0.625rem 0.75rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.875rem;
+}
+
+.schedule-table tbody tr:hover td {
+  background-color: var(--color-row-hover);
+}
+
+.schedule-table__opponent {
+  font-weight: 600;
+}
+
+/* Phones: headings are replaced by per-cell labels, one card per game. */
+@media (max-width: 640px) {
+  .schedule-table__scroller {
+    overflow-x: visible;
+    border: none;
+    border-radius: 0;
+  }
+
+  .schedule-table,
+  .schedule-table tbody,
+  .schedule-table tr,
+  .schedule-table td {
+    display: block;
+  }
+
+  .schedule-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+
+  .schedule-table tr {
+    margin-bottom: 0.75rem;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  .schedule-table td {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+  }
+
+  .schedule-table td::before {
+    content: attr(data-label);
+    flex: none;
+    width: 4.5rem;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "season": 2026,
+  "games": [
+    { "date": "2026-09-05", "opponent": "East Carolina", "location": "home", "time": "12:00 PM ET" },
+    { "date": "2026-09-12", "opponent": "Kentucky", "location": "away", "time": "3:30 PM ET" },
+    { "date": "2026-09-19", "opponent": "Florida State", "location": "home", "time": "3:30 PM ET" },
+    { "date": "2026-09-26", "opponent": "South Carolina", "location": "home", "time": null },
+    { "date": "2026-10-03", "opponent": "Mississippi State", "location": "away", "time": null },
+    { "date": "2026-10-10", "opponent": "Georgia", "location": "home", "time": null },
+    { "date": "2026-10-17", "opponent": "Tennessee", "location": "away", "time": null },
+    { "date": "2026-10-24", "opponent": "Texas A&M", "location": "home", "time": null },
+    { "date": "2026-11-07", "opponent": "LSU", "location": "away", "time": null },
+    { "date": "2026-11-14", "opponent": "Vanderbilt", "location": "away", "time": null },
+    { "date": "2026-11-21", "opponent": "Chattanooga", "location": "home", "time": "2:00 PM ET" },
+    { "date": "2026-11-28", "opponent": "Auburn", "location": "home", "time": null }
+  ]
+}
