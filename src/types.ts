@@ -100,3 +100,26 @@ export interface Schedule {
   season: number;
   games: ScheduleGame[];
 }
+
+/** One matchup in the SEC-wide grid, as stored in sec-schedule.json. */
+export interface SecScheduleGame {
+  opponent: string;
+  site: string;
+  /** Overrides the week's default Saturday date, e.g. "Nov. 27" for a Friday game. */
+  note?: string;
+}
+
+/** One SEC team's full slate, aligned by index to SecSchedule.weeks. Null entries are byes. */
+export interface SecScheduleTeamRow {
+  team: string;
+  games: (SecScheduleGame | null)[];
+}
+
+/** The league-wide schedule grid published by the SEC, as stored in sec-schedule.json. */
+export interface SecSchedule {
+  /** ISO date this grid was last revised, e.g. "2026-07-03". */
+  updated: string;
+  /** ISO dates for each week's column, aligned by index to every team row's games. */
+  weeks: string[];
+  teams: SecScheduleTeamRow[];
+}

@@ -1,0 +1,893 @@
+{
+  "updated": "2026-07-03",
+  "weeks": [
+    "2026-09-05",
+    "2026-09-12",
+    "2026-09-19",
+    "2026-09-26",
+    "2026-10-03",
+    "2026-10-10",
+    "2026-10-17",
+    "2026-10-24",
+    "2026-10-31",
+    "2026-11-07",
+    "2026-11-14",
+    "2026-11-21",
+    "2026-11-28"
+  ],
+  "teams": [
+    {
+      "team": "ALABAMA",
+      "games": [
+        {
+          "opponent": "EAST CAROLINA",
+          "site": "Tuscaloosa"
+        },
+        {
+          "opponent": "KENTUCKY",
+          "site": "Lexington"
+        },
+        {
+          "opponent": "FLORIDA STATE",
+          "site": "Tuscaloosa"
+        },
+        {
+          "opponent": "SOUTH CAROLINA",
+          "site": "Tuscaloosa"
+        },
+        {
+          "opponent": "MISSISSIPPI STATE",
+          "site": "Starkville"
+        },
+        {
+          "opponent": "GEORGIA",
+          "site": "Tuscaloosa"
+        },
+        {
+          "opponent": "TENNESSEE",
+          "site": "Knoxville"
+        },
+        {
+          "opponent": "TEXAS A&M",
+          "site": "Tuscaloosa"
+        },
+        null,
+        {
+          "opponent": "LSU",
+          "site": "Baton Rouge"
+        },
+        {
+          "opponent": "VANDERBILT",
+          "site": "Nashville"
+        },
+        {
+          "opponent": "CHATTANOOGA",
+          "site": "Tuscaloosa"
+        },
+        {
+          "opponent": "AUBURN",
+          "site": "Tuscaloosa"
+        }
+      ]
+    },
+    {
+      "team": "ARKANSAS",
+      "games": [
+        {
+          "opponent": "NORTH ALABAMA",
+          "site": "Fayetteville"
+        },
+        {
+          "opponent": "UTAH",
+          "site": "Salt Lake City"
+        },
+        {
+          "opponent": "GEORGIA",
+          "site": "Fayetteville"
+        },
+        {
+          "opponent": "TULSA",
+          "site": "Fayetteville"
+        },
+        {
+          "opponent": "TEXAS A&M",
+          "site": "College Station"
+        },
+        {
+          "opponent": "TENNESSEE",
+          "site": "Fayetteville"
+        },
+        {
+          "opponent": "VANDERBILT",
+          "site": "Nashville"
+        },
+        null,
+        {
+          "opponent": "MISSOURI",
+          "site": "Fayetteville"
+        },
+        {
+          "opponent": "AUBURN",
+          "site": "Auburn"
+        },
+        {
+          "opponent": "SOUTH CAROLINA",
+          "site": "Fayetteville"
+        },
+        {
+          "opponent": "TEXAS",
+          "site": "Austin"
+        },
+        {
+          "opponent": "LSU",
+          "site": "Fayetteville"
+        }
+      ]
+    },
+    {
+      "team": "AUBURN",
+      "games": [
+        {
+          "opponent": "BAYLOR",
+          "site": "Atlanta"
+        },
+        {
+          "opponent": "SOUTHERN MISS",
+          "site": "Auburn"
+        },
+        {
+          "opponent": "FLORIDA",
+          "site": "Auburn"
+        },
+        {
+          "opponent": "VANDERBILT",
+          "site": "Auburn"
+        },
+        {
+          "opponent": "TENNESSEE",
+          "site": "Knoxville"
+        },
+        null,
+        {
+          "opponent": "GEORGIA",
+          "site": "Athens"
+        },
+        {
+          "opponent": "LSU",
+          "site": "Auburn"
+        },
+        {
+          "opponent": "OLE MISS",
+          "site": "Oxford"
+        },
+        {
+          "opponent": "ARKANSAS",
+          "site": "Auburn"
+        },
+        {
+          "opponent": "MISSISSIPPI STATE",
+          "site": "Starkville"
+        },
+        {
+          "opponent": "SAMFORD",
+          "site": "Auburn"
+        },
+        {
+          "opponent": "ALABAMA",
+          "site": "Tuscaloosa"
+        }
+      ]
+    },
+    {
+      "team": "FLORIDA",
+      "games": [
+        {
+          "opponent": "FLORIDA ATLANTIC",
+          "site": "Gainesville"
+        },
+        {
+          "opponent": "CAMPBELL",
+          "site": "Gainesville"
+        },
+        {
+          "opponent": "AUBURN",
+          "site": "Auburn"
+        },
+        {
+          "opponent": "OLE MISS",
+          "site": "Gainesville"
+        },
+        {
+          "opponent": "MISSOURI",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "SOUTH CAROLINA",
+          "site": "Gainesville"
+        },
+        {
+          "opponent": "TEXAS",
+          "site": "Austin"
+        },
+        null,
+        {
+          "opponent": "GEORGIA",
+          "site": "Atlanta"
+        },
+        {
+          "opponent": "OKLAHOMA",
+          "site": "Gainesville"
+        },
+        {
+          "opponent": "KENTUCKY",
+          "site": "Lexington"
+        },
+        {
+          "opponent": "VANDERBILT",
+          "site": "Gainesville"
+        },
+        {
+          "opponent": "FLORIDA STATE",
+          "site": "Tallahassee",
+          "note": "Nov. 27"
+        }
+      ]
+    },
+    {
+      "team": "GEORGIA",
+      "games": [
+        {
+          "opponent": "TENNESSEE STATE",
+          "site": "Athens"
+        },
+        {
+          "opponent": "WESTERN KENTUCKY",
+          "site": "Athens"
+        },
+        {
+          "opponent": "ARKANSAS",
+          "site": "Fayetteville"
+        },
+        {
+          "opponent": "OKLAHOMA",
+          "site": "Athens"
+        },
+        {
+          "opponent": "VANDERBILT",
+          "site": "Athens"
+        },
+        {
+          "opponent": "ALABAMA",
+          "site": "Tuscaloosa"
+        },
+        {
+          "opponent": "AUBURN",
+          "site": "Athens"
+        },
+        null,
+        {
+          "opponent": "FLORIDA",
+          "site": "Atlanta"
+        },
+        {
+          "opponent": "OLE MISS",
+          "site": "Oxford"
+        },
+        {
+          "opponent": "MISSOURI",
+          "site": "Athens"
+        },
+        {
+          "opponent": "SOUTH CAROLINA",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "GEORGIA TECH",
+          "site": "Athens"
+        }
+      ]
+    },
+    {
+      "team": "KENTUCKY",
+      "games": [
+        {
+          "opponent": "YOUNGSTOWN STATE",
+          "site": "Lexington"
+        },
+        {
+          "opponent": "ALABAMA",
+          "site": "Lexington"
+        },
+        {
+          "opponent": "TEXAS A&M",
+          "site": "College Station"
+        },
+        {
+          "opponent": "SOUTH ALABAMA",
+          "site": "Lexington"
+        },
+        {
+          "opponent": "SOUTH CAROLINA",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "LSU",
+          "site": "Lexington"
+        },
+        {
+          "opponent": "OKLAHOMA",
+          "site": "Norman"
+        },
+        {
+          "opponent": "VANDERBILT",
+          "site": "Lexington"
+        },
+        null,
+        {
+          "opponent": "TENNESSEE",
+          "site": "Knoxville"
+        },
+        {
+          "opponent": "FLORIDA",
+          "site": "Lexington"
+        },
+        {
+          "opponent": "MISSOURI",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "LOUISVILLE",
+          "site": "Lexington"
+        }
+      ]
+    },
+    {
+      "team": "LSU",
+      "games": [
+        {
+          "opponent": "CLEMSON",
+          "site": "Baton Rouge"
+        },
+        {
+          "opponent": "LOUISIANA TECH",
+          "site": "Baton Rouge"
+        },
+        {
+          "opponent": "OLE MISS",
+          "site": "Oxford"
+        },
+        {
+          "opponent": "TEXAS A&M",
+          "site": "Baton Rouge"
+        },
+        {
+          "opponent": "MCNEESE STATE",
+          "site": "Baton Rouge"
+        },
+        {
+          "opponent": "KENTUCKY",
+          "site": "Lexington"
+        },
+        {
+          "opponent": "MISSISSIPPI STATE",
+          "site": "Baton Rouge"
+        },
+        {
+          "opponent": "AUBURN",
+          "site": "Auburn"
+        },
+        null,
+        {
+          "opponent": "ALABAMA",
+          "site": "Baton Rouge"
+        },
+        {
+          "opponent": "TEXAS",
+          "site": "Baton Rouge"
+        },
+        {
+          "opponent": "TENNESSEE",
+          "site": "Knoxville"
+        },
+        {
+          "opponent": "ARKANSAS",
+          "site": "Fayetteville"
+        }
+      ]
+    },
+    {
+      "team": "OLE MISS",
+      "games": [
+        {
+          "opponent": "LOUISVILLE",
+          "site": "Nashville",
+          "note": "Sept. 6"
+        },
+        {
+          "opponent": "CHARLOTTE",
+          "site": "Oxford"
+        },
+        {
+          "opponent": "LSU",
+          "site": "Oxford"
+        },
+        {
+          "opponent": "FLORIDA",
+          "site": "Gainesville"
+        },
+        null,
+        {
+          "opponent": "VANDERBILT",
+          "site": "Nashville"
+        },
+        {
+          "opponent": "MISSOURI",
+          "site": "Oxford"
+        },
+        {
+          "opponent": "TEXAS",
+          "site": "Austin"
+        },
+        {
+          "opponent": "AUBURN",
+          "site": "Oxford"
+        },
+        {
+          "opponent": "GEORGIA",
+          "site": "Oxford"
+        },
+        {
+          "opponent": "OKLAHOMA",
+          "site": "Norman"
+        },
+        {
+          "opponent": "WOFFORD",
+          "site": "Oxford"
+        },
+        {
+          "opponent": "MISSISSIPPI STATE",
+          "site": "Oxford",
+          "note": "Nov. 27"
+        }
+      ]
+    },
+    {
+      "team": "MISSISSIPPI STATE",
+      "games": [
+        {
+          "opponent": "LOUISIANA-MONROE",
+          "site": "Starkville"
+        },
+        {
+          "opponent": "MINNESOTA",
+          "site": "Minneapolis"
+        },
+        {
+          "opponent": "SOUTH CAROLINA",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "MISSOURI",
+          "site": "Starkville"
+        },
+        {
+          "opponent": "ALABAMA",
+          "site": "Starkville"
+        },
+        null,
+        {
+          "opponent": "LSU",
+          "site": "Baton Rouge"
+        },
+        {
+          "opponent": "OKLAHOMA",
+          "site": "Starkville"
+        },
+        {
+          "opponent": "TEXAS",
+          "site": "Austin"
+        },
+        {
+          "opponent": "VANDERBILT",
+          "site": "Starkville"
+        },
+        {
+          "opponent": "AUBURN",
+          "site": "Starkville"
+        },
+        {
+          "opponent": "TENNESSEE TECH",
+          "site": "Starkville"
+        },
+        {
+          "opponent": "OLE MISS",
+          "site": "Oxford",
+          "note": "Nov. 27"
+        }
+      ]
+    },
+    {
+      "team": "MISSOURI",
+      "games": [
+        {
+          "opponent": "ARKANSAS-PINE BLUFF",
+          "site": "Columbia",
+          "note": "Sept. 3"
+        },
+        {
+          "opponent": "KANSAS",
+          "site": "Lawrence",
+          "note": "Sept. 11"
+        },
+        {
+          "opponent": "TROY",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "MISSISSIPPI STATE",
+          "site": "Starkville"
+        },
+        {
+          "opponent": "FLORIDA",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "TEXAS A&M",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "OLE MISS",
+          "site": "Oxford"
+        },
+        null,
+        {
+          "opponent": "ARKANSAS",
+          "site": "Fayetteville"
+        },
+        {
+          "opponent": "TEXAS",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "GEORGIA",
+          "site": "Athens"
+        },
+        {
+          "opponent": "KENTUCKY",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "OKLAHOMA",
+          "site": "Columbia"
+        }
+      ]
+    },
+    {
+      "team": "OKLAHOMA",
+      "games": [
+        {
+          "opponent": "UTEP",
+          "site": "Norman",
+          "note": "Sept. 4"
+        },
+        {
+          "opponent": "MICHIGAN",
+          "site": "Ann Arbor"
+        },
+        {
+          "opponent": "NEW MEXICO",
+          "site": "Norman"
+        },
+        {
+          "opponent": "GEORGIA",
+          "site": "Athens"
+        },
+        null,
+        {
+          "opponent": "TEXAS",
+          "site": "Dallas"
+        },
+        {
+          "opponent": "KENTUCKY",
+          "site": "Norman"
+        },
+        {
+          "opponent": "MISSISSIPPI STATE",
+          "site": "Starkville"
+        },
+        {
+          "opponent": "SOUTH CAROLINA",
+          "site": "Norman"
+        },
+        {
+          "opponent": "FLORIDA",
+          "site": "Gainesville"
+        },
+        {
+          "opponent": "OLE MISS",
+          "site": "Norman"
+        },
+        {
+          "opponent": "TEXAS A&M",
+          "site": "Norman"
+        },
+        {
+          "opponent": "MISSOURI",
+          "site": "Columbia"
+        }
+      ]
+    },
+    {
+      "team": "SOUTH CAROLINA",
+      "games": [
+        {
+          "opponent": "KENT",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "TOWSON",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "MISSISSIPPI STATE",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "ALABAMA",
+          "site": "Tuscaloosa"
+        },
+        {
+          "opponent": "KENTUCKY",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "FLORIDA",
+          "site": "Gainesville"
+        },
+        null,
+        {
+          "opponent": "TENNESSEE",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "OKLAHOMA",
+          "site": "Norman"
+        },
+        {
+          "opponent": "TEXAS A&M",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "ARKANSAS",
+          "site": "Fayetteville"
+        },
+        {
+          "opponent": "GEORGIA",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "CLEMSON",
+          "site": "Clemson"
+        }
+      ]
+    },
+    {
+      "team": "TENNESSEE",
+      "games": [
+        {
+          "opponent": "FURMAN",
+          "site": "Knoxville"
+        },
+        {
+          "opponent": "GEORGIA TECH",
+          "site": "Atlanta"
+        },
+        {
+          "opponent": "KENNESAW STATE",
+          "site": "Knoxville"
+        },
+        {
+          "opponent": "TEXAS",
+          "site": "Knoxville"
+        },
+        {
+          "opponent": "AUBURN",
+          "site": "Knoxville"
+        },
+        {
+          "opponent": "ARKANSAS",
+          "site": "Fayetteville"
+        },
+        {
+          "opponent": "ALABAMA",
+          "site": "Knoxville"
+        },
+        {
+          "opponent": "SOUTH CAROLINA",
+          "site": "Columbia"
+        },
+        null,
+        {
+          "opponent": "KENTUCKY",
+          "site": "Knoxville"
+        },
+        {
+          "opponent": "TEXAS A&M",
+          "site": "College Station"
+        },
+        {
+          "opponent": "LSU",
+          "site": "Knoxville"
+        },
+        {
+          "opponent": "VANDERBILT",
+          "site": "Nashville"
+        }
+      ]
+    },
+    {
+      "team": "TEXAS",
+      "games": [
+        {
+          "opponent": "TEXAS STATE",
+          "site": "Austin"
+        },
+        {
+          "opponent": "OHIO STATE",
+          "site": "Austin"
+        },
+        {
+          "opponent": "UTSA",
+          "site": "Austin"
+        },
+        {
+          "opponent": "TENNESSEE",
+          "site": "Knoxville"
+        },
+        null,
+        {
+          "opponent": "OKLAHOMA",
+          "site": "Dallas"
+        },
+        {
+          "opponent": "FLORIDA",
+          "site": "Austin"
+        },
+        {
+          "opponent": "OLE MISS",
+          "site": "Austin"
+        },
+        {
+          "opponent": "MISSISSIPPI STATE",
+          "site": "Austin"
+        },
+        {
+          "opponent": "MISSOURI",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "LSU",
+          "site": "Baton Rouge"
+        },
+        {
+          "opponent": "ARKANSAS",
+          "site": "Austin"
+        },
+        {
+          "opponent": "TEXAS A&M",
+          "site": "College Station",
+          "note": "Nov. 27"
+        }
+      ]
+    },
+    {
+      "team": "TEXAS A&M",
+      "games": [
+        {
+          "opponent": "MISSOURI STATE",
+          "site": "College Station"
+        },
+        {
+          "opponent": "ARIZONA STATE",
+          "site": "College Station"
+        },
+        {
+          "opponent": "KENTUCKY",
+          "site": "College Station"
+        },
+        {
+          "opponent": "LSU",
+          "site": "Baton Rouge"
+        },
+        {
+          "opponent": "ARKANSAS",
+          "site": "College Station"
+        },
+        {
+          "opponent": "MISSOURI",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "CITADEL",
+          "site": "College Station"
+        },
+        {
+          "opponent": "ALABAMA",
+          "site": "Tuscaloosa"
+        },
+        null,
+        {
+          "opponent": "SOUTH CAROLINA",
+          "site": "Columbia"
+        },
+        {
+          "opponent": "TENNESSEE",
+          "site": "College Station"
+        },
+        {
+          "opponent": "OKLAHOMA",
+          "site": "Norman"
+        },
+        {
+          "opponent": "TEXAS",
+          "site": "College Station",
+          "note": "Nov. 27"
+        }
+      ]
+    },
+    {
+      "team": "VANDERBILT",
+      "games": [
+        {
+          "opponent": "AUSTIN PEAY",
+          "site": "Nashville"
+        },
+        {
+          "opponent": "DELAWARE",
+          "site": "Nashville"
+        },
+        {
+          "opponent": "NC STATE",
+          "site": "Nashville"
+        },
+        {
+          "opponent": "AUBURN",
+          "site": "Auburn"
+        },
+        {
+          "opponent": "GEORGIA",
+          "site": "Athens"
+        },
+        {
+          "opponent": "OLE MISS",
+          "site": "Nashville"
+        },
+        {
+          "opponent": "ARKANSAS",
+          "site": "Nashville"
+        },
+        {
+          "opponent": "KENTUCKY",
+          "site": "Lexington"
+        },
+        null,
+        {
+          "opponent": "MISSISSIPPI STATE",
+          "site": "Starkville"
+        },
+        {
+          "opponent": "ALABAMA",
+          "site": "Nashville"
+        },
+        {
+          "opponent": "FLORIDA",
+          "site": "Gainesville"
+        },
+        {
+          "opponent": "TENNESSEE",
+          "site": "Nashville"
+        }
+      ]
+    }
+  ]
+}

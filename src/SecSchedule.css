@@ -1,0 +1,97 @@
+/* SEC schedule grid: every team down the left, weeks across the top — the
+   layout the conference's own published grid uses. */
+
+.sec-grid__scroller {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+}
+
+.sec-grid {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  background-color: var(--color-surface);
+}
+
+.sec-grid thead th {
+  padding: 0.5rem 0.625rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+  color: #ffffff;
+  background-color: var(--color-crimson);
+  white-space: nowrap;
+}
+
+.sec-grid__team-heading {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+/* The team name anchors each row, so it stays put while the weeks scroll
+   sideways under it. */
+.sec-grid__team {
+  position: sticky;
+  left: 0;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-align: left;
+  color: var(--color-crimson);
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.sec-grid__cell {
+  padding: 0.375rem 0.625rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.sec-grid tbody tr:hover .sec-grid__cell,
+.sec-grid tbody tr:hover .sec-grid__team {
+  background-color: var(--color-row-hover);
+}
+
+.sec-grid__opponent {
+  display: block;
+  font-weight: 600;
+}
+
+.sec-grid__site {
+  display: block;
+  font-size: 0.6875rem;
+  color: var(--color-muted);
+}
+
+.sec-grid__bye {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--color-muted);
+}
+
+.sec-grid__row--highlight .sec-grid__team,
+.sec-grid__row--highlight .sec-grid__cell {
+  background-color: var(--color-row-hover);
+}
+
+.sec-grid__row--highlight:hover .sec-grid__cell,
+.sec-grid__row--highlight:hover .sec-grid__team {
+  background-color: var(--color-row-hover);
+}
+
+/* Phones: the sideways scroller stays — a 16-team, 13-week grid can't
+   reasonably become stacked cards the way a single team's schedule can. */
+@media (max-width: 640px) {
+  .sec-grid__team {
+    font-size: 0.75rem;
+  }
+}

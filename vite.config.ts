@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react';
 
 // Served from the apex custom domain (fortpain.com), so the base path is root.
 // Multi-page build: a landing page at "/", the Alabama roster at "/alabama/",
-// the weekly depth chart at "/alabama/depth-chart/", and the season schedule
-// at "/alabama/schedule/".
+// the weekly depth chart at "/alabama/depth-chart/", the season schedule at
+// "/alabama/schedule/", and the league-wide SEC grid at "/alabama/sec-schedule/".
 // Input paths are relative to the project root, which Vite resolves for us.
 export default defineConfig({
   plugins: [react()],
@@ -16,6 +16,7 @@ export default defineConfig({
         alabama: 'alabama/index.html',
         alabamaDepthChart: 'alabama/depth-chart/index.html',
         alabamaSchedule: 'alabama/schedule/index.html',
+        alabamaSecSchedule: 'alabama/sec-schedule/index.html',
       },
     },
   },

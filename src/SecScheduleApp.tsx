@@ -1,18 +1,31 @@
 import { useEffect, useState } from 'react';
-import { getSchedule } from './data/schedule-service';
-import ScheduleTable from './components/ScheduleTable';
-import type { Schedule } from './types';
-import './Schedule.css';
+import { getSecSchedule } from './data/sec-schedule-service';
+import SecScheduleGrid from './components/SecScheduleGrid';
+import type { SecSchedule } from './types';
+import './SecSchedule.css';
 
 type LoadStatus = 'loading' | 'ready' | 'error';
 
-function ScheduleApp() {
-  const [schedule, setSchedule] = useState<Schedule | null>(null);
+/** "2026-07-03" → "July 3, 2026". Parsed as local time, not UTC. */
+function formatUpdatedDate(isoDate: string): string {
+  const [year, month, day] = isoDate.split('-').map(Number);
+  if (!year || !month || !day) {
+    return isoDate;
+  }
+  return new Date(year, month - 1, day).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+}
+
+function SecScheduleApp() {
+  const [schedule, setSchedule] = useState<SecSchedule | null>(null);
   const [loadStatus, setLoadStatus] = useState<LoadStatus>('loading');
 
   useEffect(() => {
     let isActive = true;
-    getSchedule()
+    getSecSchedule()
       .then((loadedSchedule) => {
         if (isActive) {
           setSchedule(loadedSchedule);
@@ -32,21 +45,15 @@ function ScheduleApp() {
   return (
     <div className="app">
       <header className="app__header">
-        <h1 className="app__title">Alabama Schedule</h1>
+        <h1 className="app__title">SEC Schedule</h1>
         {schedule ? (
-          <p className="app__count">{schedule.season} season</p>
+          <p className="app__count">As of {formatUpdatedDate(schedule.updated)}</p>
         ) : null}
       </header>
 
       <nav className="app__nav">
-        <a className="app__nav-link" href="/alabama/">
-          <span aria-hidden="true">&larr;</span> Roster
-        </a>
-        <a className="app__nav-link" href="/alabama/depth-chart/">
-          Depth chart <span aria-hidden="true">&rarr;</span>
-        </a>
-        <a className="app__nav-link" href="/alabama/sec-schedule/">
-          Full SEC schedule <span aria-hidden="true">&rarr;</span>
+        <a className="app__nav-link" href="/alabama/schedule/">
+          <span aria-hidden="true">&larr;</span> Alabama schedule
         </a>
       </nav>
 
@@ -59,10 +66,10 @@ function ScheduleApp() {
           Couldn’t load the schedule. Please try again later.
         </p>
       ) : (
-        <ScheduleTable games={schedule.games} />
+        <SecScheduleGrid schedule={schedule} />
       )}
     </div>
   );
 }
 
-export default ScheduleApp;
+export default SecScheduleApp;
