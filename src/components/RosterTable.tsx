@@ -122,11 +122,11 @@ function RosterTable({ rows, sortState, onSort }: RosterTableProps) {
               <td data-label="Name">{row.name}</td>
               <td data-label="Jersey #">{row.jersey_number}</td>
               <td data-label="Position">{row.position}</td>
-              <td data-label="Academic Year">{row.academic_year}</td>
-              <td data-label="Ht|Wt">{formatHeightWeight(row)}</td>
               <td data-label="Depth" title={depthTitle(row)}>
                 {row.depth ? row.depth.rank : '—'}
               </td>
+              <td data-label="Academic Year">{row.academic_year}</td>
+              <td data-label="Ht|Wt">{formatHeightWeight(row)}</td>
               <td className="roster-table__info-cell">
                 <button
                   type="button"
