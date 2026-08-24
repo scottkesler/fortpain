@@ -1,54 +1,68 @@
 import type { Player } from './types';
 
 /**
- * A personnel grouping that filters the roster by player position.
- * `positions` is null for the "all players" option; otherwise it is the set
- * of position codes that belong to the group.
+ * The side of the ball a group belongs to. The filter renders one row of
+ * buttons per unit, in this order.
+ */
+export type PersonnelUnit = 'offense' | 'defense' | 'other';
+
+export const PERSONNEL_UNIT_ORDER: PersonnelUnit[] = [
+  'offense',
+  'defense',
+  'other',
+];
+
+/**
+ * A personnel grouping that filters the roster. Each group decides membership
+ * with a predicate, so most groups match on position code while Corners and
+ * Safeties match on the defensive-back sub-position (`db_role`).
  */
 export interface PersonnelGroup {
   id: string;
   label: string;
-  positions: ReadonlySet<string> | null;
+  unit: PersonnelUnit;
+  matches: (player: Player) => boolean;
 }
 
-// Position-code building blocks (the codes actually present in the data are:
-// DB, OL, LB, WR, DL, TE, RB, QB, PK, SN, P). The roster has no CB/S split,
-// so Corners and Safeties both map to all defensive backs (DB).
-const OFFENSE_POSITIONS = ['QB', 'RB', 'WR', 'TE', 'OL'];
-const DEFENSE_POSITIONS = ['DL', 'LB', 'DB'];
-const SKILL_POSITIONS = ['RB', 'WR', 'TE'];
-const SPECIAL_TEAMS_POSITIONS = ['PK', 'P', 'SN'];
+// Position codes present in the data: DB, OL, LB, WR, DL, TE, RB, QB, PK, SN, P.
+const inPositions =
+  (...codes: string[]) =>
+  (player: Player) =>
+    codes.includes(player.position);
 
 export const ALL_PLAYERS_GROUP_ID = 'all';
 
 export const PERSONNEL_GROUPS: PersonnelGroup[] = [
-  { id: ALL_PLAYERS_GROUP_ID, label: 'All Players', positions: null },
+  { id: 'offense', label: 'Offense', unit: 'offense', matches: inPositions('QB', 'RB', 'WR', 'TE', 'OL') },
+  { id: 'offensive-line', label: 'Offensive Line', unit: 'offense', matches: inPositions('OL') },
+  { id: 'quarterbacks', label: 'Quarterbacks', unit: 'offense', matches: inPositions('QB') },
+  { id: 'running-backs', label: 'Running Backs', unit: 'offense', matches: inPositions('RB') },
+  { id: 'receivers', label: 'Receivers', unit: 'offense', matches: inPositions('WR') },
+  { id: 'tight-ends', label: 'Tight Ends', unit: 'offense', matches: inPositions('TE') },
+  { id: 'skills-group', label: 'Skills Group', unit: 'offense', matches: inPositions('RB', 'WR', 'TE') },
 
-  { id: 'offense', label: 'Offense', positions: new Set(OFFENSE_POSITIONS) },
-  { id: 'offensive-line', label: 'Offensive Line', positions: new Set(['OL']) },
-  { id: 'quarterbacks', label: 'Quarterbacks', positions: new Set(['QB']) },
-  { id: 'running-backs', label: 'Running Backs', positions: new Set(['RB']) },
-  { id: 'receivers', label: 'Receivers', positions: new Set(['WR']) },
-  { id: 'tight-ends', label: 'Tight Ends', positions: new Set(['TE']) },
-  { id: 'skills-group', label: 'Skills Group', positions: new Set(SKILL_POSITIONS) },
+  { id: 'defense', label: 'Defense', unit: 'defense', matches: inPositions('DL', 'LB', 'DB') },
+  { id: 'defensive-line', label: 'Defensive Line', unit: 'defense', matches: inPositions('DL') },
+  { id: 'linebackers', label: 'Linebackers', unit: 'defense', matches: inPositions('LB') },
+  { id: 'defensive-backs', label: 'Defensive Backs', unit: 'defense', matches: inPositions('DB') },
+  // Corners/Safeties rely on the manual db_role override; DBs without one
+  // appear under Defensive Backs but in neither of these.
+  { id: 'corners', label: 'Corners', unit: 'defense', matches: (player) => player.db_role === 'CB' },
+  { id: 'safeties', label: 'Safeties', unit: 'defense', matches: (player) => player.db_role === 'S' },
 
-  { id: 'defense', label: 'Defense', positions: new Set(DEFENSE_POSITIONS) },
-  { id: 'defensive-line', label: 'Defensive Line', positions: new Set(['DL']) },
-  { id: 'linebackers', label: 'Linebackers', positions: new Set(['LB']) },
-  { id: 'defensive-backs', label: 'Defensive Backs', positions: new Set(['DB']) },
-  { id: 'corners', label: 'Corners', positions: new Set(['DB']) },
-  { id: 'safeties', label: 'Safeties', positions: new Set(['DB']) },
-
-  { id: 'special-teams', label: 'Special Teams', positions: new Set(SPECIAL_TEAMS_POSITIONS) },
+  { id: ALL_PLAYERS_GROUP_ID, label: 'All Players', unit: 'other', matches: () => true },
+  { id: 'special-teams', label: 'Special Teams', unit: 'other', matches: inPositions('PK', 'P', 'SN') },
 ];
+
+/** The groups belonging to one unit, in declaration order (one button row). */
+export function groupsInUnit(unit: PersonnelUnit): PersonnelGroup[] {
+  return PERSONNEL_GROUPS.filter((group) => group.unit === unit);
+}
 
 const groupsById = new Map(PERSONNEL_GROUPS.map((group) => [group.id, group]));
 
 /** Whether a player belongs to the personnel group with the given id. */
 export function playerInGroup(player: Player, groupId: string): boolean {
   const group = groupsById.get(groupId);
-  if (!group || group.positions === null) {
-    return true;
-  }
-  return group.positions.has(player.position);
+  return group ? group.matches(player) : true;
 }

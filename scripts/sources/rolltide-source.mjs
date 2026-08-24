@@ -4,7 +4,8 @@
 // payload inside <script id="__NUXT_DATA__"> — a flat array where each object's
 // field values are *indices* into that same array (string dedup). This module
 // fetches the page, resolves the relevant player fields, and normalizes them to
-// the roster Player shape: { name, jersey_number, position, academic_year, hometown }.
+// the roster Player shape:
+// { name, jersey_number, position, academic_year, hometown, height, weight }.
 //
 // This runs in Node as an offline ingestion step (not in the browser), because
 // the page is large and cross-origin. It conceptually implements the same
@@ -66,6 +67,32 @@ function parsePlayers(payloadArray) {
     return value == null ? '' : String(value).trim();
   };
 
+  // Numeric fields (height, weight) must resolve with exactly one hop: the
+  // payload slot holds the number itself, and following it again would read it
+  // as another index and return an unrelated entry.
+  const resolveNumber = (reference) => {
+    if (
+      typeof reference !== 'number' ||
+      reference < 0 ||
+      reference >= payloadArray.length
+    ) {
+      return null;
+    }
+    const value = payloadArray[reference];
+    return typeof value === 'number' && Number.isFinite(value) ? value : null;
+  };
+
+  // rolltide stores height as separate feet/inches numbers; the site renders
+  // them as feet-inches (6-1). Players with no listed height get an empty string.
+  const resolveHeight = (entry) => {
+    const feet = resolveNumber(entry.heightFeet);
+    if (feet === null || feet <= 0) {
+      return '';
+    }
+    const inches = resolveNumber(entry.heightInches) ?? 0;
+    return `${feet}-${inches}`;
+  };
+
   const players = [];
   for (const entry of payloadArray) {
     const isPlayer =
@@ -86,12 +113,16 @@ function parsePlayers(payloadArray) {
       continue;
     }
 
+    const weight = resolveNumber(entry.weight);
+
     players.push({
       name,
       jersey_number: resolveString(entry.jerseyNumber),
       position,
       academic_year: resolveString(entry.academicYearShort),
       hometown: resolveString(entry.hometown),
+      height: resolveHeight(entry),
+      weight: weight === null || weight <= 0 ? '' : String(weight),
     });
   }
 

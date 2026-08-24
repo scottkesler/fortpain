@@ -12,5 +12,4 @@ export const ROSTER_COLUMNS: ColumnDefinition[] = [
   { key: 'jersey_number', label: 'Jersey #', numeric: true },
   { key: 'position', label: 'Position', numeric: false },
   { key: 'academic_year', label: 'Academic Year', numeric: false },
-  { key: 'hometown', label: 'Hometown', numeric: false },
 ];

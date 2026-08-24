@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Deontae Lawson",
+        "jersey_number": "0",
+        "position": "LB",
+        "academic_year": "R-Jr.",
+        "hometown": "Mobile, Ala."
+    },
+    {
+        "name": "Domani Jackson",
+        "jersey_number": "1",
+        "position": "DB",
+        "academic_year": "Jr.",
+        "hometown": "San Diego, Calif."
+    },
+    {
+        "name": "Kendrick Law",
+        "jersey_number": "1",
+        "position": "WR",
+        "academic_year": "Jr.",
+        "hometown": "Shreveport, La."
+    },
+    {
+        "name": "Zabien Brown",
+        "jersey_number": "2",
+        "position": "DB",
+        "academic_year": "Fr.",
+        "hometown": "Santa Ana, Calif."
+    },
+    {
+        "name": "Ryan Williams",
+        "jersey_number": "2",
+        "position": "WR",
+        "academic_year": "Fr.",
+        "hometown": "Mobile, Ala."
+    },
+    {
+        "name": "Emmanuel Henderson Jr.",
+        "jersey_number": "3",
+        "position": "WR",
+        "academic_year": "Jr.",
+        "hometown": "Hartford, Ala."
+    },
+    {
+        "name": "Keon Sabb",
+        "jersey_number": "3",
+        "position": "DB",
+        "academic_year": "R-So.",
+        "hometown": "Glassboro, N.J."
+    },
+    {
+        "name": "Jalen Milroe",
+        "jersey_number": "4",
+        "position": "QB",
+        "academic_year": "R-Jr.",
+        "hometown": "Katy, Texas"
+    },
+    {
+        "name": "Qua Russaw",
+        "jersey_number": "4",
+        "position": "LB",
+        "academic_year": "R-Fr.",
+        "hometown": "Montgomery, Ala."
+    },
+    {
+        "name": "Germie Bernard",
+        "jersey_number": "5",
+        "position": "WR",
+        "academic_year": "Jr.",
+        "hometown": "Las Vegas, Nev."
+    },
+    {
+        "name": "King Mack",
+        "jersey_number": "5",
+        "position": "DB",
+        "academic_year": "So.",
+        "hometown": "Miami, Fla."
+    },
+    {
+        "name": "Kameron Howard",
+        "jersey_number": "6",
+        "position": "DB",
+        "academic_year": "So.",
+        "hometown": "Clinton, Md."
+    },
+    {
+        "name": "Kobe Prentice",
+        "jersey_number": "6",
+        "position": "WR",
+        "academic_year": "Jr.",
+        "hometown": "Calera, Ala."
+    },
+    {
+        "name": "Cole Adams",
+        "jersey_number": "7",
+        "position": "WR",
+        "academic_year": "R-Fr.",
+        "hometown": "Owasso, Okla."
+    },
+    {
+        "name": "DaShawn Jones",
+        "jersey_number": "7",
+        "position": "DB",
+        "academic_year": "R-Jr.",
+        "hometown": "Baltimore, Md."
+    },
+    {
+        "name": "DeVonta Smith",
+        "jersey_number": "8",
+        "position": "DB",
+        "academic_year": "R-Jr.",
+        "hometown": "Cincinnati, Ohio"
+    },
+    {
+        "name": "Jaylen Mbakwe",
+        "jersey_number": "9",
+        "position": "DB",
+        "academic_year": "Fr.",
+        "hometown": "Clay, Ala."
+    },
+    {
+        "name": "Richard Young",
+        "jersey_number": "9",
+        "position": "RB",
+        "academic_year": "R-Fr.",
+        "hometown": "Lehigh Acres, Fla."
+    },
+    {
+        "name": "Austin Mack",
+        "jersey_number": "10",
+        "position": "QB",
+        "academic_year": "R-Fr.",
+        "hometown": "Loomis, Calif."
+    },
+    {
+        "name": "Jehiem Oatis",
+        "jersey_number": "10",
+        "position": "DL",
+        "academic_year": "Jr.",
+        "hometown": "Columbia, Miss."
+    }
+]

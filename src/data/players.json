@@ -3,798 +3,1156 @@
     "name": "AK Dear",
     "jersey_number": "0",
     "position": "RB",
-    "academic_year": "R-Fr.",
-    "hometown": "Quitman, Miss."
+    "academic_year": "So.",
+    "hometown": "Quitman, Miss.",
+    "height": "6-1",
+    "weight": "216"
   },
   {
     "name": "Yhonzae Pierre",
     "jersey_number": "0",
     "position": "LB",
-    "academic_year": "R-Jr.",
-    "hometown": "Eufaula, Ala."
+    "academic_year": "Sr.",
+    "hometown": "Eufaula, Ala.",
+    "height": "6-3",
+    "weight": "251"
   },
   {
     "name": "Devan Thompkins",
     "jersey_number": "1",
     "position": "DL",
-    "academic_year": "R-Sr.",
-    "hometown": "Tracy, Calif."
+    "academic_year": "5th",
+    "hometown": "Tracy, Calif.",
+    "height": "6-5",
+    "weight": "300"
   },
   {
     "name": "Ryan Coleman-Williams",
     "jersey_number": "1",
     "position": "WR",
     "academic_year": "Jr.",
-    "hometown": "Mobile, Ala."
+    "hometown": "Mobile, Ala.",
+    "height": "6-0",
+    "weight": "184"
   },
   {
     "name": "Zabien Brown",
     "jersey_number": "2",
     "position": "DB",
     "academic_year": "Jr.",
-    "hometown": "Santa Ana, Calif."
+    "hometown": "Santa Ana, Calif.",
+    "height": "6-0",
+    "weight": "196",
+    "db_role": "CB"
   },
   {
     "name": "Keon Sabb",
     "jersey_number": "3",
     "position": "DB",
-    "academic_year": "R-Sr.",
-    "hometown": "Glassboro, N.J."
+    "academic_year": "5th",
+    "hometown": "Glassboro, N.J.",
+    "height": "6-1",
+    "weight": "205",
+    "db_role": "S"
   },
   {
     "name": "Lotzeir Brooks",
     "jersey_number": "3",
     "position": "WR",
     "academic_year": "So.",
-    "hometown": "Millville, N.J."
+    "hometown": "Millville, N.J.",
+    "height": "5-9",
+    "weight": "197"
   },
   {
     "name": "Daniel Hill",
     "jersey_number": "4",
     "position": "RB",
     "academic_year": "Jr.",
-    "hometown": "Meridian, Miss."
+    "hometown": "Meridian, Miss.",
+    "height": "6-1",
+    "weight": "234"
   },
   {
     "name": "Luke Metz",
     "jersey_number": "4",
     "position": "LB",
     "academic_year": "So.",
-    "hometown": "Hoschton, Ga."
+    "hometown": "Hoschton, Ga.",
+    "height": "6-3",
+    "weight": "235"
   },
   {
     "name": "Dijon Lee Jr.",
     "jersey_number": "5",
     "position": "DB",
     "academic_year": "So.",
-    "hometown": "Carson, Calif."
+    "hometown": "Carson, Calif.",
+    "height": "6-4",
+    "weight": "202",
+    "db_role": "CB"
   },
   {
     "name": "Noah Rogers",
     "jersey_number": "5",
     "position": "WR",
-    "academic_year": "R-Jr.",
-    "hometown": "Raleigh, N.C."
+    "academic_year": "Sr.",
+    "hometown": "Raleigh, N.C.",
+    "height": "6-2",
+    "weight": "206"
   },
   {
     "name": "Kevin Riley",
     "jersey_number": "6",
     "position": "RB",
-    "academic_year": "R-So.",
-    "hometown": "Northport, Ala."
+    "academic_year": "Jr.",
+    "hometown": "Northport, Ala.",
+    "height": "5-11",
+    "weight": "198"
   },
   {
     "name": "Red Morgan",
     "jersey_number": "6",
     "position": "DB",
     "academic_year": "Jr.",
-    "hometown": "Phenix City, Ala."
+    "hometown": "Phenix City, Ala.",
+    "height": "6-0",
+    "weight": "191",
+    "db_role": "CB"
   },
   {
     "name": "Caleb Woodson",
     "jersey_number": "7",
     "position": "LB",
     "academic_year": "Sr.",
-    "hometown": "Haymarket, Va."
+    "hometown": "Haymarket, Va.",
+    "height": "6-3",
+    "weight": "240"
   },
   {
     "name": "Rico Scott",
     "jersey_number": "7",
     "position": "WR",
-    "academic_year": "R-So.",
-    "hometown": "Harrisburg, Pa."
+    "academic_year": "Jr.",
+    "hometown": "Harrisburg, Pa.",
+    "height": "6-0",
+    "weight": "203"
   },
   {
     "name": "Cederian Morgan",
     "jersey_number": "8",
     "position": "WR",
     "academic_year": "Fr.",
-    "hometown": "Alexander City, Ala."
+    "hometown": "Alexander City, Ala.",
+    "height": "6-4",
+    "weight": "222"
   },
   {
     "name": "Justin Hill",
     "jersey_number": "8",
     "position": "LB",
     "academic_year": "So.",
-    "hometown": "Cincinnati, Ohio"
+    "hometown": "Cincinnati, Ohio",
+    "height": "6-3",
+    "weight": "245"
   },
   {
     "name": "Desmond Umeozulu",
     "jersey_number": "9",
     "position": "LB",
     "academic_year": "Sr.",
-    "hometown": "Upper Marlboro, Md."
+    "hometown": "Upper Marlboro, Md.",
+    "height": "6-6",
+    "weight": "255"
   },
   {
     "name": "Marshall Pritchett",
     "jersey_number": "9",
     "position": "TE",
     "academic_year": "So.",
-    "hometown": "Charleston, S.C."
+    "hometown": "Charleston, S.C.",
+    "height": "6-5",
+    "weight": "246"
   },
   {
     "name": "Austin Mack",
     "jersey_number": "10",
     "position": "QB",
-    "academic_year": "R-Jr.",
-    "hometown": "Loomis, Calif."
+    "academic_year": "Sr.",
+    "hometown": "Loomis, Calif.",
+    "height": "6-6",
+    "weight": "237"
   },
   {
     "name": "Jireh Edwards",
     "jersey_number": "10",
     "position": "DB",
     "academic_year": "Fr.",
-    "hometown": "Largo, Md."
+    "hometown": "Largo, Md.",
+    "height": "6-2",
+    "weight": "218",
+    "db_role": "S"
   },
   {
     "name": "Tayden-Evan Kaawa",
     "jersey_number": "11",
     "position": "QB",
     "academic_year": "Fr.",
-    "hometown": "Molokai, Hawai'i"
+    "hometown": "Molokai, Hawai'i",
+    "height": "6-5",
+    "weight": "238"
   },
   {
     "name": "Xavier Griffin",
     "jersey_number": "11",
     "position": "LB",
     "academic_year": "Fr.",
-    "hometown": "Gainesville, Ga."
+    "hometown": "Gainesville, Ga.",
+    "height": "6-3",
+    "weight": "228"
   },
   {
     "name": "Keelon Russell",
     "jersey_number": "12",
     "position": "QB",
-    "academic_year": "R-Fr.",
-    "hometown": "Duncanville, Texas"
+    "academic_year": "So.",
+    "hometown": "Duncanville, Texas",
+    "height": "6-3",
+    "weight": "207"
   },
   {
     "name": "Zavier Mincey",
     "jersey_number": "12",
     "position": "DB",
     "academic_year": "Jr.",
-    "hometown": "Daytona Beach, Fla."
+    "hometown": "Daytona Beach, Fla.",
+    "height": "6-3",
+    "weight": "206",
+    "db_role": "S"
   },
   {
     "name": "EJ Crowell",
     "jersey_number": "13",
     "position": "RB",
     "academic_year": "Fr.",
-    "hometown": "Jackson, Ala."
+    "hometown": "Jackson, Ala.",
+    "height": "5-11",
+    "weight": "224"
   },
   {
     "name": "Ivan Taylor",
     "jersey_number": "13",
     "position": "DB",
     "academic_year": "So.",
-    "hometown": "Winter Garden, Fla."
+    "hometown": "Winter Garden, Fla.",
+    "height": "6-0",
+    "weight": "198",
+    "db_role": "S"
   },
   {
     "name": "John Gazzaniga",
     "jersey_number": "13",
     "position": "QB",
     "academic_year": "So.",
-    "hometown": "Rancho Santa Margarita, Calif."
+    "hometown": "Rancho Santa Margarita, Calif.",
+    "height": "6-7",
+    "weight": "241"
   },
   {
     "name": "Fatutoa Henry",
     "jersey_number": "14",
     "position": "DL",
-    "academic_year": "R-Sr.",
-    "hometown": "Lawndale, Calif."
+    "academic_year": "5th",
+    "hometown": "Lawndale, Calif.",
+    "height": "6-4",
+    "weight": "272"
+  },
+  {
+    "name": "Tyler Henderson",
+    "jersey_number": "14",
+    "position": "WR",
+    "academic_year": "Jr.",
+    "hometown": "Vicksburg, Miss.",
+    "height": "6-1",
+    "weight": "177"
   },
   {
     "name": "Duke Johnson II",
     "jersey_number": "15",
     "position": "LB",
     "academic_year": "So.",
-    "hometown": "Eastman, Ga."
+    "hometown": "Eastman, Ga.",
+    "height": "6-1",
+    "weight": "233"
   },
   {
     "name": "Jett Thomalla",
     "jersey_number": "15",
     "position": "QB",
     "academic_year": "Fr.",
-    "hometown": "Omaha, Neb."
+    "hometown": "Omaha, Neb.",
+    "height": "6-4",
+    "weight": "229"
   },
   {
     "name": "Jorden Edmonds",
     "jersey_number": "16",
     "position": "DB",
     "academic_year": "Fr.",
-    "hometown": "Marietta, Ga."
+    "hometown": "Marietta, Ga.",
+    "height": "6-3",
+    "weight": "190",
+    "db_role": "CB"
   },
   {
     "name": "Trae’shawn Brown",
     "jersey_number": "17",
     "position": "RB",
     "academic_year": "Fr.",
-    "hometown": "Huntsville, Texas"
+    "hometown": "Huntsville, Texas",
+    "height": "5-10",
+    "weight": "206"
   },
   {
     "name": "Zyan Gibson",
     "jersey_number": "17",
     "position": "DB",
     "academic_year": "Fr.",
-    "hometown": "Gadsden, Ala."
+    "hometown": "Gadsden, Ala.",
+    "height": "6-0",
+    "weight": "195"
   },
   {
     "name": "Bray Hubbard",
     "jersey_number": "18",
     "position": "DB",
     "academic_year": "Sr.",
-    "hometown": "Ocean Springs, Miss."
+    "hometown": "Ocean Springs, Miss.",
+    "height": "6-2",
+    "weight": "215",
+    "db_role": "S"
   },
   {
     "name": "Mack Sutter",
     "jersey_number": "18",
     "position": "TE",
     "academic_year": "Fr.",
-    "hometown": "Dunlap, Ill."
+    "hometown": "Dunlap, Ill.",
+    "height": "6-5",
+    "weight": "248"
   },
   {
     "name": "Chuck McDonald III",
     "jersey_number": "19",
     "position": "DB",
-    "academic_year": "R-Fr.",
-    "hometown": "Santa Ana, Calif."
+    "academic_year": "So.",
+    "hometown": "Santa Ana, Calif.",
+    "height": "6-1",
+    "weight": "199",
+    "db_role": "CB"
   },
   {
     "name": "John Cooper",
     "jersey_number": "19",
     "position": "QB",
     "academic_year": "Jr.",
-    "hometown": "Mountain Brook, Ala."
+    "hometown": "Mountain Brook, Ala.",
+    "height": "6-2",
+    "weight": "205"
   },
   {
     "name": "Jah-Marien Latham",
     "jersey_number": "20",
     "position": "LB",
-    "academic_year": "Gr.",
-    "hometown": "Reform, Ala."
+    "academic_year": "6th",
+    "hometown": "Reform, Ala.",
+    "height": "6-3",
+    "weight": "273"
   },
   {
     "name": "Khalifa Keith",
     "jersey_number": "20",
     "position": "RB",
-    "academic_year": "R-Jr.",
-    "hometown": "Birmingham, Ala."
+    "academic_year": "Sr.",
+    "hometown": "Birmingham, Ala.",
+    "height": "6-1",
+    "weight": "232"
   },
   {
     "name": "Dre Kirkpatrick Jr.",
     "jersey_number": "21",
     "position": "DB",
     "academic_year": "Jr.",
-    "hometown": "Gadsden, Ala."
+    "hometown": "Gadsden, Ala.",
+    "height": "5-11",
+    "weight": "207",
+    "db_role": "S"
   },
   {
     "name": "Maurice Mathis Jr.",
     "jersey_number": "21",
     "position": "WR",
     "academic_year": "Fr.",
-    "hometown": "Warner Robins, Ga."
+    "hometown": "Warner Robins, Ga.",
+    "height": "6-1",
+    "weight": "198"
   },
   {
     "name": "Kedrick Bingley-Jones",
     "jersey_number": "22",
     "position": "DL",
-    "academic_year": "Gr.",
-    "hometown": "Concord, N.C."
+    "academic_year": "6th",
+    "hometown": "Concord, N.C.",
+    "height": "6-4",
+    "weight": "302"
   },
   {
     "name": "Cayden Jones",
     "jersey_number": "23",
     "position": "LB",
     "academic_year": "Jr.",
-    "hometown": "Asheville, N.C."
+    "hometown": "Asheville, N.C.",
+    "height": "6-4",
+    "weight": "233"
   },
   {
     "name": "MJ Chirgwin",
     "jersey_number": "23",
     "position": "WR",
-    "academic_year": "Gr.",
-    "hometown": "Huntington Beach, Calif."
+    "academic_year": "5th",
+    "hometown": "Huntington Beach, Calif.",
+    "height": "6-0",
+    "weight": "195"
+  },
+  {
+    "name": "Amari Sabb",
+    "jersey_number": "24",
+    "position": "WR",
+    "academic_year": "Fr.",
+    "hometown": "Glassboro, N.J.",
+    "height": "5-9",
+    "weight": "180"
   },
   {
     "name": "Rihyael Kelley",
     "jersey_number": "24",
     "position": "DB",
     "academic_year": "Fr.",
-    "hometown": "Cincinnati, Ohio"
+    "hometown": "Cincinnati, Ohio",
+    "height": "6-3",
+    "weight": "205"
+  },
+  {
+    "name": "J'Alan Terry",
+    "jersey_number": "25",
+    "position": "RB",
+    "academic_year": "Fr.",
+    "hometown": "Gadsden, Ala.",
+    "height": "6-0",
+    "weight": "190"
   },
   {
     "name": "Steve Bolo Mboumoua",
     "jersey_number": "25",
     "position": "DL",
-    "academic_year": "R-So.",
-    "hometown": "Saint Augustin de Desmaures, Quebec"
+    "academic_year": "Jr.",
+    "hometown": "Saint Augustin de Desmaures, Quebec",
+    "height": "6-4",
+    "weight": "303"
+  },
+  {
+    "name": "Aubrey Walker",
+    "jersey_number": "26",
+    "position": "WR",
+    "academic_year": "Fr.",
+    "hometown": "Birmingham, Ala.",
+    "height": "5-10",
+    "weight": "170"
   },
   {
     "name": "Mhari Johnson",
     "jersey_number": "26",
     "position": "DL",
     "academic_year": "Fr.",
-    "hometown": "Muscle Shoals, Ala."
+    "hometown": "Muscle Shoals, Ala.",
+    "height": "6-3",
+    "weight": "290"
   },
   {
     "name": "Elijah Murray",
     "jersey_number": "27",
     "position": "WR",
-    "academic_year": "So.",
-    "hometown": "Buford, Ga."
+    "academic_year": "Sr.",
+    "hometown": "Buford, Ga.",
+    "height": "5-11",
+    "weight": "185"
   },
   {
     "name": "Walter Sansing III",
     "jersey_number": "27",
     "position": "DB",
     "academic_year": "Sr.",
-    "hometown": "Homewood, Ala."
+    "hometown": "Homewood, Ala.",
+    "height": "5-10",
+    "weight": "182"
   },
   {
     "name": "Carmelo O'Neal",
     "jersey_number": "28",
     "position": "DB",
     "academic_year": "Jr.",
-    "hometown": "Atlanta, Ga."
+    "hometown": "Atlanta, Ga.",
+    "height": "6-4",
+    "weight": "210",
+    "db_role": "CB"
   },
   {
     "name": "Fredrick Moore",
     "jersey_number": "29",
     "position": "RB",
     "academic_year": "Jr.",
-    "hometown": "Cypress, Texas"
+    "hometown": "Cypress, Texas",
+    "height": "5-9",
+    "weight": "170"
+  },
+  {
+    "name": "Jaron Jackson",
+    "jersey_number": "29",
+    "position": "RB",
+    "academic_year": "Fr.",
+    "hometown": "Livingston, Ala.",
+    "height": "5-11",
+    "weight": "170"
   },
   {
     "name": "Nick Sherman",
     "jersey_number": "29",
     "position": "DB",
-    "academic_year": "So.",
-    "hometown": "Tuscaloosa, Ala."
+    "academic_year": "Jr.",
+    "hometown": "Tuscaloosa, Ala.",
+    "height": "6-3",
+    "weight": "201",
+    "db_role": "CB"
+  },
+  {
+    "name": "Bubba Odom",
+    "jersey_number": "30",
+    "position": "LB",
+    "academic_year": "Sr.",
+    "hometown": "Parrish, Ala.",
+    "height": "6-4",
+    "weight": "240"
   },
   {
     "name": "Derek Meadows",
     "jersey_number": "30",
     "position": "WR",
     "academic_year": "So.",
-    "hometown": "Las Vegas, Nev."
+    "hometown": "Las Vegas, Nev.",
+    "height": "6-5",
+    "weight": "212"
   },
   {
     "name": "Conor Talty",
     "jersey_number": "31",
     "position": "PK",
-    "academic_year": "R-Jr.",
-    "hometown": "Chicago, Ill."
+    "academic_year": "Sr.",
+    "hometown": "Chicago, Ill.",
+    "height": "6-1",
+    "weight": "201"
   },
   {
     "name": "Cooper Mollison",
     "jersey_number": "31",
     "position": "WR",
     "academic_year": "Jr.",
-    "hometown": "Vestavia Hills, Ala."
+    "hometown": "Vestavia Hills, Ala.",
+    "height": "5-10",
+    "weight": "177"
+  },
+  {
+    "name": "George French II",
+    "jersey_number": "31",
+    "position": "DB",
+    "academic_year": "Fr.",
+    "hometown": "Birmingham, Ala.",
+    "height": "6-1",
+    "weight": "195"
   },
   {
     "name": "Alex Asparuhov",
     "jersey_number": "32",
     "position": "P",
-    "academic_year": "R-Fr.",
-    "hometown": "Fresno, Calif."
+    "academic_year": "So.",
+    "hometown": "Fresno, Calif.",
+    "height": "6-3",
+    "weight": "202"
   },
   {
     "name": "Corey Howard Jr.",
     "jersey_number": "32",
     "position": "DL",
     "academic_year": "Fr.",
-    "hometown": "Valdosta, Ga."
+    "hometown": "Valdosta, Ga.",
+    "height": "6-6",
+    "weight": "288"
   },
   {
     "name": "Griffin Hanson",
     "jersey_number": "32",
     "position": "DB",
     "academic_year": "Jr.",
-    "hometown": "Florence, Ala."
+    "hometown": "Florence, Ala.",
+    "height": "5-10",
+    "weight": "177"
   },
   {
     "name": "Adam Watford",
     "jersey_number": "33",
     "position": "P",
     "academic_year": "Sr.",
-    "hometown": "Dothan, Ala."
+    "hometown": "Dothan, Ala.",
+    "height": "5-11",
+    "weight": "188"
   },
   {
-    "name": "Jessie Washington III",
-    "jersey_number": "34",
-    "position": "RB",
+    "name": "Preston Landry",
+    "jersey_number": "33",
+    "position": "WR",
     "academic_year": "Sr.",
-    "hometown": "Milledgeville, Ga."
+    "hometown": "Miami, Fla.",
+    "height": "6-4",
+    "weight": "210"
   },
   {
     "name": "London Hill",
     "jersey_number": "34",
     "position": "DB",
-    "academic_year": "So.",
-    "hometown": "Mobile, Ala."
+    "academic_year": "Jr.",
+    "hometown": "Mobile, Ala.",
+    "height": "5-11",
+    "weight": "185"
   },
   {
     "name": "Zay Hall",
     "jersey_number": "34",
     "position": "LB",
     "academic_year": "Fr.",
-    "hometown": "Tuscaloosa, Ala."
+    "hometown": "Tuscaloosa, Ala.",
+    "height": "6-3",
+    "weight": "236"
   },
   {
     "name": "Abduall Sanders Jr.",
     "jersey_number": "35",
     "position": "LB",
     "academic_year": "So.",
-    "hometown": "Santa Ana, Calif."
+    "hometown": "Santa Ana, Calif.",
+    "height": "6-2",
+    "weight": "231"
   },
   {
     "name": "QB Reese",
     "jersey_number": "36",
     "position": "LB",
-    "academic_year": "R-So.",
-    "hometown": "Birmingham, Ala."
+    "academic_year": "Jr.",
+    "hometown": "Birmingham, Ala.",
+    "height": "6-0",
+    "weight": "230"
   },
   {
-    "name": "Tyler Henderson",
+    "name": "TC Washington",
+    "jersey_number": "36",
+    "position": "RB",
+    "academic_year": "Fr.",
+    "hometown": "Kennesaw, Ga.",
+    "height": "5-11",
+    "weight": "220"
+  },
+  {
+    "name": "Tailan Hall",
     "jersey_number": "37",
     "position": "WR",
     "academic_year": "Jr.",
-    "hometown": "Vicksburg, Miss."
+    "hometown": "Tanner, Ala.",
+    "height": "5-11",
+    "weight": "180"
   },
   {
     "name": "Brody McCutcheon",
     "jersey_number": "38",
     "position": "DB",
     "academic_year": "So.",
-    "hometown": "Moody, Ala."
+    "hometown": "Moody, Ala.",
+    "height": "6-1",
+    "weight": "180"
   },
   {
     "name": "Jake Ivie",
     "jersey_number": "39",
     "position": "LB",
     "academic_year": "Sr.",
-    "hometown": "Alabaster, Ala."
-  },
-  {
-    "name": "Grant Johnson",
-    "jersey_number": "40",
-    "position": "LB",
-    "academic_year": "Sr.",
-    "hometown": "Casa Grande, Calif."
+    "hometown": "Alabaster, Ala.",
+    "height": "6-0",
+    "weight": "188"
   },
   {
     "name": "Josh Ford",
     "jersey_number": "40",
     "position": "TE",
-    "academic_year": "R-So.",
-    "hometown": "Stillwater, Okla."
+    "academic_year": "Jr.",
+    "hometown": "Stillwater, Okla.",
+    "height": "6-6",
+    "weight": "266"
+  },
+  {
+    "name": "Torin Craig",
+    "jersey_number": "40",
+    "position": "LB",
+    "academic_year": "Jr.",
+    "hometown": "Woodberry Forest, Va.",
+    "height": "6-2",
+    "weight": "180"
   },
   {
     "name": "Jamarion Matthews",
     "jersey_number": "41",
     "position": "LB",
     "academic_year": "Fr.",
-    "hometown": "Huntsville, Ala."
+    "hometown": "Huntsville, Ala.",
+    "height": "6-2",
+    "weight": "254"
   },
   {
     "name": "Ben Jackson",
     "jersey_number": "42",
     "position": "WR",
     "academic_year": "So.",
-    "hometown": "Mobile, Ala."
+    "hometown": "Mobile, Ala.",
+    "height": "6-2",
+    "weight": "165"
   },
   {
-    "name": "Alex Rozier",
+    "name": "Camryn Gable",
+    "jersey_number": "43",
+    "position": "DB",
+    "academic_year": "So.",
+    "hometown": "Mobile, Ala.",
+    "height": "5-10",
+    "weight": "170"
+  },
+  {
+    "name": "Nolan Wilson",
     "jersey_number": "44",
-    "position": "SN",
-    "academic_year": "Gr.",
-    "hometown": "Hattiesburg, Miss."
+    "position": "DL",
+    "academic_year": "Fr.",
+    "hometown": "Picayune, Miss.",
+    "height": "6-5",
+    "weight": "285"
   },
   {
     "name": "Jay Williams",
     "jersey_number": "45",
     "position": "SN",
     "academic_year": "Jr.",
-    "hometown": "Ringgold, Ga."
+    "hometown": "Ringgold, Ga.",
+    "height": "6-0",
+    "weight": "210"
   },
   {
     "name": "Peyton Fox",
     "jersey_number": "46",
     "position": "TE",
-    "academic_year": "R-Sr.",
-    "hometown": "Pelham, Ala."
+    "academic_year": "5th",
+    "hometown": "Pelham, Ala.",
+    "height": "6-4",
+    "weight": "235"
   },
   {
-    "name": "Conner Warhurst",
-    "jersey_number": "49",
-    "position": "DB",
-    "academic_year": "Sr.",
-    "hometown": "Russellville, Ala."
-  },
-  {
-    "name": "Ethan Stangle",
-    "jersey_number": "49",
+    "name": "Eli Deutsch",
+    "jersey_number": "47",
     "position": "SN",
-    "academic_year": "R-Sr.",
-    "hometown": "Bel Air, Md."
+    "academic_year": "Fr.",
+    "hometown": "Franklin, Wis.",
+    "height": "6-2",
+    "weight": "225"
   },
   {
     "name": "Casey Poe",
     "jersey_number": "50",
     "position": "OL",
-    "academic_year": "R-So.",
-    "hometown": "Lindale, Texas"
+    "academic_year": "Jr.",
+    "hometown": "Lindale, Texas",
+    "height": "6-4",
+    "weight": "328"
   },
   {
     "name": "Mal Waldrep Jr.",
     "jersey_number": "52",
     "position": "OL",
-    "academic_year": "R-Fr.",
-    "hometown": "Seale, Ala."
+    "academic_year": "So.",
+    "hometown": "Seale, Ala.",
+    "height": "6-5",
+    "weight": "324"
   },
   {
     "name": "Mac Smith",
     "jersey_number": "53",
     "position": "OL",
     "academic_year": "Sr.",
-    "hometown": "Birmingham, Ala."
+    "hometown": "Birmingham, Ala.",
+    "height": "6-3",
+    "weight": "300"
   },
   {
     "name": "Jayvin James",
     "jersey_number": "54",
     "position": "OL",
-    "academic_year": "R-Jr.",
-    "hometown": "Deerfield Beach, Fla."
+    "academic_year": "Sr.",
+    "hometown": "Deerfield Beach, Fla.",
+    "height": "6-5",
+    "weight": "317"
+  },
+  {
+    "name": "Alex Rozier",
+    "jersey_number": "55",
+    "position": "SN",
+    "academic_year": "5th",
+    "hometown": "Hattiesburg, Miss.",
+    "height": "6-4",
+    "weight": "215"
   },
   {
     "name": "Racin Delgatty",
     "jersey_number": "55",
     "position": "OL",
-    "academic_year": "R-Jr.",
-    "hometown": "La Cañada Flintridge, Calif."
+    "academic_year": "Sr.",
+    "hometown": "La Cañada Flintridge, Calif.",
+    "height": "6-3",
+    "weight": "305"
+  },
+  {
+    "name": "Bear Fretwell",
+    "jersey_number": "57",
+    "position": "OL",
+    "academic_year": "Fr.",
+    "hometown": "Brooklet, Ga.",
+    "height": "6-7",
+    "weight": "305"
   },
   {
     "name": "JD Martin",
     "jersey_number": "59",
     "position": "OL",
     "academic_year": "Jr.",
-    "hometown": "Pisgah, Ala."
+    "hometown": "Pisgah, Ala.",
+    "height": "6-2",
+    "weight": "266"
+  },
+  {
+    "name": "Ethan Stangle",
+    "jersey_number": "61",
+    "position": "SN",
+    "academic_year": "5th",
+    "hometown": "Bel Air, Md.",
+    "height": "6-1",
+    "weight": "219"
   },
   {
     "name": "Davis Peterson",
     "jersey_number": "62",
     "position": "OL",
     "academic_year": "Sr.",
-    "hometown": "Birmingham, Ala."
+    "hometown": "Birmingham, Ala.",
+    "height": "6-1",
+    "weight": "268"
   },
   {
     "name": "Bryson Cooley",
     "jersey_number": "63",
     "position": "OL",
     "academic_year": "Fr.",
-    "hometown": "Laurel, Miss."
+    "hometown": "Laurel, Miss.",
+    "height": "6-6",
+    "weight": "328"
   },
   {
     "name": "Michael Carroll",
     "jersey_number": "64",
     "position": "OL",
     "academic_year": "So.",
-    "hometown": "Doylestown, Pa."
+    "hometown": "Doylestown, Pa.",
+    "height": "6-6",
+    "weight": "324"
   },
   {
     "name": "Tyrell Miller",
     "jersey_number": "65",
     "position": "OL",
-    "academic_year": "So.",
-    "hometown": "Union City, Calif."
+    "academic_year": "Jr.",
+    "hometown": "Union City, Calif.",
+    "height": "6-5",
+    "weight": "312"
+  },
+  {
+    "name": "Jared Graham",
+    "jersey_number": "66",
+    "position": "OL",
+    "academic_year": "Fr.",
+    "hometown": "Atlanta, Ga.",
+    "height": "6-6",
+    "weight": "300"
   },
   {
     "name": "Billy Roby",
     "jersey_number": "68",
     "position": "OL",
     "academic_year": "Sr.",
-    "hometown": "Huntsville, Ala."
+    "hometown": "Huntsville, Ala.",
+    "height": "5-11",
+    "weight": "280"
   },
   {
     "name": "Baker Hickman",
     "jersey_number": "69",
     "position": "OL",
     "academic_year": "Sr.",
-    "hometown": "Tuscaloosa, Ala."
+    "hometown": "Tuscaloosa, Ala.",
+    "height": "6-3",
+    "weight": "334"
   },
   {
     "name": "William Sanders",
     "jersey_number": "70",
     "position": "OL",
-    "academic_year": "R-So.",
-    "hometown": "Brookwood, Ala."
+    "academic_year": "Jr.",
+    "hometown": "Brookwood, Ala.",
+    "height": "6-3",
+    "weight": "321"
   },
   {
     "name": "Nick Brooks",
     "jersey_number": "71",
     "position": "OL",
     "academic_year": "So.",
-    "hometown": "Cedar Rapids, Iowa"
+    "hometown": "Cedar Rapids, Iowa",
+    "height": "6-7",
+    "weight": "333"
   },
   {
     "name": "Ty Haywood",
     "jersey_number": "72",
     "position": "OL",
-    "academic_year": "R-Fr.",
-    "hometown": "Denton, Texas"
+    "academic_year": "So.",
+    "hometown": "Denton, Texas",
+    "height": "6-5",
+    "weight": "318"
   },
   {
     "name": "Chris Booker",
     "jersey_number": "73",
     "position": "OL",
     "academic_year": "Fr.",
-    "hometown": "Atlanta, Ga."
+    "hometown": "Atlanta, Ga.",
+    "height": "6-4",
+    "weight": "288"
   },
   {
     "name": "Ethan Fields",
     "jersey_number": "75",
     "position": "OL",
-    "academic_year": "R-Jr.",
-    "hometown": "Geismar, La."
+    "academic_year": "Sr.",
+    "hometown": "Geismar, La.",
+    "height": "6-3",
+    "weight": "313"
   },
   {
     "name": "Jackson Lloyd",
     "jersey_number": "77",
     "position": "OL",
-    "academic_year": "R-Fr.",
-    "hometown": "Carmel, Calif."
+    "academic_year": "So.",
+    "hometown": "Carmel, Calif.",
+    "height": "6-7",
+    "weight": "326"
   },
   {
     "name": "Kaden Strayhorn",
     "jersey_number": "79",
     "position": "OL",
-    "academic_year": "R-Fr.",
-    "hometown": "Novi, Mich."
+    "academic_year": "So.",
+    "hometown": "Novi, Mich.",
+    "height": "6-2",
+    "weight": "310"
   },
   {
     "name": "Jaxon Shuttlesworth",
     "jersey_number": "80",
     "position": "TE",
-    "academic_year": "R-So.",
-    "hometown": "Chelsea, Ala."
+    "academic_year": "Jr.",
+    "hometown": "Chelsea, Ala.",
+    "height": "6-5",
+    "weight": "235"
   },
   {
     "name": "Kaleb Edwards",
     "jersey_number": "81",
     "position": "TE",
     "academic_year": "So.",
-    "hometown": "El Dorado Hills, Calif."
+    "hometown": "El Dorado Hills, Calif.",
+    "height": "6-6",
+    "weight": "264"
   },
   {
     "name": "Lane Whisenhunt",
     "jersey_number": "82",
     "position": "LB",
     "academic_year": "Sr.",
-    "hometown": "Vestavia Hills, Ala."
+    "hometown": "Vestavia Hills, Ala.",
+    "height": "6-2",
+    "weight": "225"
   },
   {
     "name": "Warner Ross",
     "jersey_number": "83",
     "position": "WR",
     "academic_year": "Sr.",
-    "hometown": "Dalton, Ga."
+    "hometown": "Dalton, Ga.",
+    "height": "5-10",
+    "weight": "183"
   },
   {
     "name": "Jack Sammarco",
     "jersey_number": "85",
     "position": "TE",
-    "academic_year": "R-So.",
-    "hometown": "Cincinnati, Ohio"
+    "academic_year": "Jr.",
+    "hometown": "Cincinnati, Ohio",
+    "height": "6-5",
+    "weight": "268"
   },
   {
     "name": "Jude Cascone",
     "jersey_number": "86",
     "position": "TE",
     "academic_year": "Fr.",
-    "hometown": "Marietta, Ga."
+    "hometown": "Marietta, Ga.",
+    "height": "6-3",
+    "weight": "224"
   },
   {
     "name": "Danny Lewis Jr.",
     "jersey_number": "87",
     "position": "TE",
-    "academic_year": "R-Sr.",
-    "hometown": "New Iberia, La."
+    "academic_year": "5th",
+    "hometown": "New Iberia, La.",
+    "height": "6-5",
+    "weight": "260"
   },
   {
     "name": "Isaia Faga",
     "jersey_number": "88",
     "position": "DL",
-    "academic_year": "R-So.",
-    "hometown": "Phenix City, Ala."
+    "academic_year": "Jr.",
+    "hometown": "Phenix City, Ala.",
+    "height": "6-2",
+    "weight": "291"
   },
   {
     "name": "Jay Lindsey",
     "jersey_number": "88",
     "position": "TE",
-    "academic_year": "R-So.",
-    "hometown": "Butler, Ala."
+    "academic_year": "Jr.",
+    "hometown": "Butler, Ala.",
+    "height": "6-5",
+    "weight": "258"
   },
   {
     "name": "London Simmons",
     "jersey_number": "90",
     "position": "DL",
     "academic_year": "So.",
-    "hometown": "Jackson, Miss."
+    "hometown": "Jackson, Miss.",
+    "height": "6-3",
+    "weight": "300"
   },
   {
     "name": "Lorcan Quinn",
     "jersey_number": "90",
     "position": "PK",
     "academic_year": "So.",
-    "hometown": "Donaghmore, Ireland"
+    "hometown": "Donaghmore, Ireland",
+    "height": "6-1",
+    "weight": "196"
   },
   {
     "name": "Caleb Smith",
     "jersey_number": "91",
     "position": "DL",
-    "academic_year": "R-Fr.",
-    "hometown": "Birmingham, Ala."
+    "academic_year": "So.",
+    "hometown": "Birmingham, Ala.",
+    "height": "6-5",
+    "weight": "280"
   },
   {
     "name": "Jeremiah Beaman",
     "jersey_number": "92",
     "position": "DL",
-    "academic_year": "R-So.",
-    "hometown": "Birmingham, Ala."
+    "academic_year": "Jr.",
+    "hometown": "Birmingham, Ala.",
+    "height": "6-4",
+    "weight": "301"
+  },
+  {
+    "name": "Malique Franklin",
+    "jersey_number": "93",
+    "position": "DL",
+    "academic_year": "Fr.",
+    "hometown": "Daphne, Ala.",
+    "height": "6-6",
+    "weight": "275"
   },
   {
     "name": "Edric Hill",
     "jersey_number": "94",
     "position": "DL",
-    "academic_year": "R-Jr.",
-    "hometown": "Kansas City, Mo."
+    "academic_year": "Sr.",
+    "hometown": "Kansas City, Mo.",
+    "height": "6-3",
+    "weight": "292"
   },
   {
     "name": "Anderson Green",
     "jersey_number": "95",
     "position": "P",
     "academic_year": "Jr.",
-    "hometown": "Tuscaloosa, Ala."
+    "hometown": "Tuscaloosa, Ala.",
+    "height": "6-0",
+    "weight": "201"
   },
   {
     "name": "Leslie Black",
     "jersey_number": "95",
     "position": "DL",
-    "academic_year": "R-Jr.",
-    "hometown": "Statesboro, Ga."
+    "academic_year": "Sr.",
+    "hometown": "Statesboro, Ga.",
+    "height": "6-5",
+    "weight": "290"
   },
   {
     "name": "Tucker Cornelius",
     "jersey_number": "98",
     "position": "PK",
     "academic_year": "Jr.",
-    "hometown": "Tuscaloosa, Ala."
+    "hometown": "Tuscaloosa, Ala.",
+    "height": "6-3",
+    "weight": "207"
   },
   {
     "name": "Terrance Green",
     "jersey_number": "99",
     "position": "DL",
-    "academic_year": "R-Jr.",
-    "hometown": "Cypress, Texas"
+    "academic_year": "Sr.",
+    "hometown": "Cypress, Texas",
+    "height": "6-5",
+    "weight": "313"
   }
 ]

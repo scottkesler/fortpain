@@ -1,0 +1,18 @@
+{
+  "note": "Manual cornerback (CB) vs safety (S) designations for Alabama defensive backs. rolltide.com only codes them all as 'DB', so the ingestion script merges these in (keyed by player name). Source: Ourlads depth chart + beat reporting, 2026. Players NOT listed here intentionally stay generic 'DB' (no public depth chart classifies them). Hybrids: Carmelo O'Neal plays both (listed CB); Zavier Mincey is the nickel/HUSKY (grouped with safeties).",
+  "roles": {
+    "Zabien Brown": "CB",
+    "Dijon Lee Jr.": "CB",
+    "Red Morgan": "CB",
+    "Jorden Edmonds": "CB",
+    "Chuck McDonald III": "CB",
+    "Carmelo O'Neal": "CB",
+    "Nick Sherman": "CB",
+    "Keon Sabb": "S",
+    "Jireh Edwards": "S",
+    "Ivan Taylor": "S",
+    "Bray Hubbard": "S",
+    "Dre Kirkpatrick Jr.": "S",
+    "Zavier Mincey": "S"
+  }
+}
