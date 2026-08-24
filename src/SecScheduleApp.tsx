@@ -53,13 +53,13 @@ function SecScheduleApp() {
 
       <nav className="app__nav">
         <a className="app__nav-link" href="/alabama/">
-          <span aria-hidden="true">&larr;</span> Roster
+          Roster
         </a>
         <a className="app__nav-link" href="/alabama/depth-chart/">
-          AL Depth Chart <span aria-hidden="true">&rarr;</span>
+          AL Depth Chart
         </a>
         <a className="app__nav-link" href="/alabama/schedule/">
-          AL Schedule <span aria-hidden="true">&rarr;</span>
+          AL Schedule
         </a>
       </nav>
 

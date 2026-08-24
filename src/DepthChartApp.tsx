@@ -61,13 +61,13 @@ function DepthChartApp() {
 
       <nav className="app__nav">
         <a className="app__nav-link" href="/alabama/">
-          <span aria-hidden="true">&larr;</span> Roster
+          Roster
         </a>
         <a className="app__nav-link" href="/alabama/schedule/">
-          AL Schedule <span aria-hidden="true">&rarr;</span>
+          AL Schedule
         </a>
         <a className="app__nav-link" href="/alabama/sec-schedule/">
-          Full SEC Schedule <span aria-hidden="true">&rarr;</span>
+          Full SEC Schedule
         </a>
       </nav>
 
