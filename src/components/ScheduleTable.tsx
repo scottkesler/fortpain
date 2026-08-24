@@ -24,6 +24,7 @@ function ScheduleTable({ games }: ScheduleTableProps) {
             <th scope="col">Opponent</th>
             <th scope="col">Location</th>
             <th scope="col">Time</th>
+            <th scope="col">TV</th>
           </tr>
         </thead>
         <tbody>
@@ -38,6 +39,7 @@ function ScheduleTable({ games }: ScheduleTableProps) {
                 {game.location === 'home' ? 'Home' : 'Away'}
               </td>
               <td data-label="Time">{game.time ?? 'TBD'}</td>
+              <td data-label="TV">{game.tv ?? 'TBA'}</td>
             </tr>
           ))}
         </tbody>

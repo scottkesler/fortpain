@@ -91,6 +91,8 @@ export interface ScheduleGame {
   location: 'home' | 'away';
   /** Kickoff time, e.g. "12:00 PM ET"; null while TBD. */
   time: string | null;
+  /** Broadcast network, e.g. "ABC"; null until the SEC/ESPN assign one. */
+  tv: string | null;
 }
 
 /** A season's full schedule as stored in schedule.json. */
