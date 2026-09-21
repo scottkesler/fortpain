@@ -38,6 +38,19 @@
   font-weight: 600;
 }
 
+.schedule-table__result {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.schedule-table__result--win {
+  color: #1a7f37;
+}
+
+.schedule-table__result--loss {
+  color: #cf222e;
+}
+
 /* Phones: headings are replaced by per-cell labels, one card per game. */
 @media (max-width: 640px) {
   .schedule-table__scroller {

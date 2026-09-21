@@ -83,6 +83,13 @@ export interface SortState {
   direction: SortDirection;
 }
 
+/** The final score of a completed game, from Alabama's point of view. */
+export interface GameResult {
+  outcome: 'W' | 'L';
+  /** Alabama's points first, e.g. "48-10". */
+  score: string;
+}
+
 /** One game on the schedule, as stored in schedule.json. */
 export interface ScheduleGame {
   /** ISO date, e.g. "2026-09-05". */
@@ -93,6 +100,8 @@ export interface ScheduleGame {
   time: string | null;
   /** Broadcast network, e.g. "ABC"; null until the SEC/ESPN assign one. */
   tv: string | null;
+  /** Final result; absent until the game has been played. */
+  result?: GameResult;
 }
 
 /** A season's full schedule as stored in schedule.json. */

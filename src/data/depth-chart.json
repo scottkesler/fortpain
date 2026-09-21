@@ -1,6 +1,6 @@
 {
   "opponent": null,
-  "updated": "2026-08-24",
+  "updated": "2026-09-18",
   "note": "Weekly depth chart. Player names must match src/data/players.json exactly — run `npm run validate:depth` after editing. Order within each slot is the depth: first name is the starter.",
   "units": [
     {
@@ -11,17 +11,17 @@
         {
           "code": "WR-X",
           "label": "Wide Receiver (X)",
-          "players": ["Derek Meadows", "Cederian Morgan", "MJ Chirgwin"]
+          "players": ["Ryan Coleman-Williams", "Derek Meadows", "MJ Chirgwin"]
         },
         {
           "code": "WR-Z",
           "label": "Wide Receiver (Z)",
-          "players": ["Ryan Coleman-Williams", "Tyler Henderson", "Maurice Mathis Jr."]
+          "players": ["Rico Scott", "Cederian Morgan", "Maurice Mathis Jr."]
         },
         {
           "code": "WR-H",
           "label": "Wide Receiver (H)",
-          "players": ["Lotzeir Brooks", "Rico Scott", "Aubrey Walker", "Amari Sabb"]
+          "players": ["Lotzeir Brooks", "Tyler Henderson", "Aubrey Walker", "Amari Sabb"]
         },
         {
           "code": "LT",
@@ -31,12 +31,12 @@
         {
           "code": "LG",
           "label": "Left Guard",
-          "players": ["William Sanders", "Mal Waldrep Jr.", "Casey Poe"]
+          "players": ["William Sanders", "Mal Waldrep Jr.", "Kaden Strayhorn"]
         },
         {
           "code": "C",
           "label": "Center",
-          "players": ["Racin Delgatty", "Kaden Strayhorn"]
+          "players": ["Racin Delgatty", "Casey Poe"]
         },
         {
           "code": "RG",
@@ -53,10 +53,11 @@
           "label": "Tight End",
           "players": [
             "Kaleb Edwards",
-            "Josh Ford",
             "Marshall Pritchett",
+            "Josh Ford",
+            "Jay Lindsey",
             "Danny Lewis Jr.",
-            "Jay Lindsey"
+            "Mack Sutter"
           ]
         },
         {
@@ -73,7 +74,7 @@
         {
           "code": "RB",
           "label": "Running Back",
-          "players": ["Daniel Hill", "Kevin Riley", "EJ Crowell", "Trae’shawn Brown"]
+          "players": ["Daniel Hill", "Trae’shawn Brown", "Kevin Riley", "EJ Crowell"]
         }
       ]
     },
@@ -85,23 +86,18 @@
         {
           "code": "DE",
           "label": "Defensive End",
-          "players": ["Jah-Marien Latham", "Desmond Umeozulu", "Fatutoa Henry"]
+          "players": ["Desmond Umeozulu", "Fatutoa Henry"]
         },
         {
           "code": "NT",
           "label": "Nose Tackle",
-          "players": [
-            "Kedrick Bingley-Jones",
-            "Terrance Green",
-            "Jeremiah Beaman",
-            "Isaia Faga"
-          ]
+          "players": ["Terrance Green", "London Simmons", "Isaia Faga", "Jeremiah Beaman"]
         },
         {
           "code": "DT",
           "label": "Defensive Tackle",
           "players": [
-            "London Simmons",
+            "Kedrick Bingley-Jones",
             "Devan Thompkins",
             "Edric Hill",
             "Steve Bolo Mboumoua"
@@ -113,39 +109,40 @@
           "players": [
             "Yhonzae Pierre",
             "Justin Hill",
-            "Xavier Griffin",
+            "Jah-Marien Latham",
             "Jamarion Matthews"
           ]
         },
         {
           "code": "STING",
           "label": "Sting (Edge)",
-          "players": ["QB Reese", "Luke Metz", "Abduall Sanders Jr."]
+          "players": ["Luke Metz", "QB Reese", "Abduall Sanders Jr."]
         },
         {
           "code": "MLB",
           "label": "Middle Linebacker",
-          "players": ["Caleb Woodson", "Cayden Jones", "Duke Johnson II", "Zay Hall"]
+          "players": [
+            "Caleb Woodson",
+            "Xavier Griffin",
+            "Cayden Jones",
+            "Duke Johnson II",
+            "Zay Hall"
+          ]
         },
         {
           "code": "LCB",
           "label": "Left Cornerback",
-          "players": [
-            "Zabien Brown",
-            "Chuck McDonald III",
-            "Zyan Gibson",
-            "Nick Sherman"
-          ]
+          "players": ["Zabien Brown", "Zyan Gibson", "Nick Sherman"]
         },
         {
           "code": "SS",
           "label": "Strong Safety",
-          "players": ["Bray Hubbard", "Ivan Taylor", "Jireh Edwards"]
+          "players": ["Keon Sabb", "Dre Kirkpatrick Jr.", "Ivan Taylor", "Jireh Edwards"]
         },
         {
           "code": "FS",
           "label": "Free Safety",
-          "players": ["Keon Sabb", "Dre Kirkpatrick Jr."]
+          "players": ["Bray Hubbard", "Zavier Mincey"]
         },
         {
           "code": "RCB",
@@ -155,7 +152,7 @@
         {
           "code": "HUSKY",
           "label": "Husky (Nickel)",
-          "players": ["Red Morgan", "Zavier Mincey", "Rihyael Kelley"]
+          "players": ["Red Morgan", "Chuck McDonald III", "Rihyael Kelley"]
         }
       ]
     },
@@ -167,7 +164,7 @@
         {
           "code": "PT",
           "label": "Punter",
-          "players": ["Adam Watford", "Alex Asparuhov", "Anderson Green"]
+          "players": ["Alex Asparuhov", "Adam Watford", "Anderson Green"]
         },
         {
           "code": "PK",
@@ -182,22 +179,22 @@
         {
           "code": "LS",
           "label": "Long Snapper",
-          "players": ["Alex Rozier", "Ethan Stangle", "Jay Williams", "Eli Deutsch"]
+          "players": ["Ethan Stangle", "Alex Rozier", "Jay Williams", "Eli Deutsch"]
         },
         {
           "code": "H",
           "label": "Holder",
-          "players": ["Adam Watford", "Alex Asparuhov", "Anderson Green"]
+          "players": ["Alex Asparuhov", "Anderson Green"]
         },
         {
           "code": "PR",
           "label": "Punt Returner",
-          "players": ["Dijon Lee Jr.", "Ryan Coleman-Williams"]
+          "players": ["Ryan Coleman-Williams", "Dijon Lee Jr."]
         },
         {
           "code": "KR",
           "label": "Kick Returner",
-          "players": ["Lotzeir Brooks", "Rico Scott"]
+          "players": ["Lotzeir Brooks", "Trae’shawn Brown"]
         }
       ]
     }

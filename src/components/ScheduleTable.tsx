@@ -25,6 +25,7 @@ function ScheduleTable({ games }: ScheduleTableProps) {
             <th scope="col">Location</th>
             <th scope="col">Time</th>
             <th scope="col">TV</th>
+            <th scope="col">Result</th>
           </tr>
         </thead>
         <tbody>
@@ -40,6 +41,17 @@ function ScheduleTable({ games }: ScheduleTableProps) {
               </td>
               <td data-label="Time">{game.time ?? 'TBD'}</td>
               <td data-label="TV">{game.tv ?? 'TBA'}</td>
+              <td data-label="Result">
+                {game.result ? (
+                  <span
+                    className={`schedule-table__result schedule-table__result--${game.result.outcome === 'W' ? 'win' : 'loss'}`}
+                  >
+                    {game.result.outcome} {game.result.score}
+                  </span>
+                ) : (
+                  '—'
+                )}
+              </td>
             </tr>
           ))}
         </tbody>
