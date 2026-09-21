@@ -21,14 +21,14 @@ export function heightInInches(height: string): number {
   return Number(match[1]) * 12 + Number(match[2]);
 }
 
-/** The combined Ht|Wt cell value, e.g. 6'1"|216. */
+/** The combined Ht | Wt cell value, e.g. 6'1" | 216. */
 export function formatHeightWeight(player: Player): string {
   if (player.height === '' && player.weight === '') {
     return '—';
   }
   const height = player.height === '' ? '—' : formatHeight(player.height);
   const weight = player.weight === '' ? '—' : player.weight;
-  return `${height}|${weight}`;
+  return `${height} | ${weight}`;
 }
 
 /**

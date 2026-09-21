@@ -13,7 +13,7 @@ export interface ColumnDefinition {
   numeric: boolean;
   /**
    * The value this column sorts on. Most columns read a player field straight
-   * off the row, but Ht|Wt and Depth are derived and compute theirs.
+   * off the row, but Ht | Wt and Depth are derived and compute theirs.
    */
   sortValue: (row: RosterRow) => string | number;
 }
@@ -59,8 +59,8 @@ export const ROSTER_COLUMNS: ColumnDefinition[] = [
   },
   {
     key: 'ht_wt',
-    label: 'Ht|Wt',
-    shortLabel: 'Ht|Wt',
+    label: 'Ht | Wt',
+    shortLabel: 'Ht | Wt',
     numeric: true,
     sortValue: heightWeightSortValue,
   },

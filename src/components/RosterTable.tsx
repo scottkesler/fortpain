@@ -126,7 +126,7 @@ function RosterTable({ rows, sortState, onSort }: RosterTableProps) {
                 {row.depth ? row.depth.rank : '—'}
               </td>
               <td data-label="Year">{row.academic_year}</td>
-              <td data-label="Ht|Wt">{formatHeightWeight(row)}</td>
+              <td data-label="Ht | Wt">{formatHeightWeight(row)}</td>
               <td className="roster-table__info-cell">
                 <button
                   type="button"
