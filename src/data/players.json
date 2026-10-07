@@ -14,7 +14,7 @@
     "position": "LB",
     "academic_year": "Sr.",
     "hometown": "Eufaula, Ala.",
-    "height": "6-3",
+    "height": "6-4",
     "weight": "251"
   },
   {
@@ -41,7 +41,7 @@
     "position": "DB",
     "academic_year": "Jr.",
     "hometown": "Santa Ana, Calif.",
-    "height": "6-0",
+    "height": "6-2",
     "weight": "196",
     "db_role": "CB"
   },
@@ -51,7 +51,7 @@
     "position": "DB",
     "academic_year": "5th",
     "hometown": "Glassboro, N.J.",
-    "height": "6-1",
+    "height": "6-3",
     "weight": "205",
     "db_role": "S"
   },
@@ -949,15 +949,6 @@
     "weight": "318"
   },
   {
-    "name": "Chris Booker",
-    "jersey_number": "73",
-    "position": "OL",
-    "academic_year": "Fr.",
-    "hometown": "Atlanta, Ga.",
-    "height": "6-4",
-    "weight": "288"
-  },
-  {
     "name": "Ethan Fields",
     "jersey_number": "75",
     "position": "OL",
@@ -1138,6 +1129,15 @@
     "weight": "290"
   },
   {
+    "name": "Josh Underwood",
+    "jersey_number": "97",
+    "position": "DL",
+    "academic_year": "So.",
+    "hometown": "Birmingham, Ala.",
+    "height": "6-2",
+    "weight": "315"
+  },
+  {
     "name": "Tucker Cornelius",
     "jersey_number": "98",
     "position": "PK",
@@ -1152,7 +1152,7 @@
     "position": "DL",
     "academic_year": "Sr.",
     "hometown": "Cypress, Texas",
-    "height": "6-5",
+    "height": "6-6",
     "weight": "313"
   }
 ]

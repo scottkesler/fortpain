@@ -1,6 +1,6 @@
 {
   "opponent": null,
-  "updated": "2026-09-18",
+  "updated": "2026-10-03",
   "note": "Weekly depth chart. Player names must match src/data/players.json exactly — run `npm run validate:depth` after editing. Order within each slot is the depth: first name is the starter.",
   "units": [
     {
@@ -11,22 +11,22 @@
         {
           "code": "WR-X",
           "label": "Wide Receiver (X)",
-          "players": ["Ryan Coleman-Williams", "Derek Meadows", "MJ Chirgwin"]
+          "players": ["Ryan Coleman-Williams", "Derek Meadows"]
         },
         {
           "code": "WR-Z",
           "label": "Wide Receiver (Z)",
-          "players": ["Rico Scott", "Cederian Morgan", "Maurice Mathis Jr."]
+          "players": ["Rico Scott", "Noah Rogers", "Cederian Morgan"]
         },
         {
           "code": "WR-H",
           "label": "Wide Receiver (H)",
-          "players": ["Lotzeir Brooks", "Tyler Henderson", "Aubrey Walker", "Amari Sabb"]
+          "players": ["Lotzeir Brooks", "Tyler Henderson"]
         },
         {
           "code": "LT",
           "label": "Left Tackle",
-          "players": ["Jackson Lloyd", "Tyrell Miller", "Jared Graham"]
+          "players": ["Jackson Lloyd", "Nick Brooks"]
         },
         {
           "code": "LG",
@@ -41,40 +41,39 @@
         {
           "code": "RG",
           "label": "Right Guard",
-          "players": ["Michael Carroll", "Ethan Fields", "Chris Booker"]
+          "players": ["Michael Carroll", "Ethan Fields"]
         },
         {
           "code": "RT",
           "label": "Right Tackle",
-          "players": ["Jayvin James", "Nick Brooks", "Ty Haywood"]
+          "players": ["Jayvin James", "Tyrell Miller"]
         },
         {
           "code": "TE",
           "label": "Tight End",
           "players": [
             "Kaleb Edwards",
-            "Marshall Pritchett",
             "Josh Ford",
-            "Jay Lindsey",
+            "Marshall Pritchett",
             "Danny Lewis Jr.",
-            "Mack Sutter"
+            "Jay Lindsey"
           ]
         },
         {
           "code": "QB",
           "label": "Quarterback",
-          "players": [
-            "Keelon Russell",
-            "Austin Mack",
-            "Jett Thomalla",
-            "John Gazzaniga",
-            "Tayden-Evan Kaawa"
-          ]
+          "players": ["Keelon Russell", "Austin Mack", "Jett Thomalla"]
         },
         {
           "code": "RB",
           "label": "Running Back",
-          "players": ["Daniel Hill", "Trae’shawn Brown", "Kevin Riley", "EJ Crowell"]
+          "players": [
+            "Daniel Hill",
+            "Trae’shawn Brown",
+            "AK Dear",
+            "EJ Crowell",
+            "Kevin Riley"
+          ]
         }
       ]
     },
@@ -86,32 +85,22 @@
         {
           "code": "DE",
           "label": "Defensive End",
-          "players": ["Desmond Umeozulu", "Fatutoa Henry"]
+          "players": ["Devan Thompkins", "Fatutoa Henry"]
         },
         {
           "code": "NT",
           "label": "Nose Tackle",
-          "players": ["Terrance Green", "London Simmons", "Isaia Faga", "Jeremiah Beaman"]
+          "players": ["Terrance Green", "Kedrick Bingley-Jones", "Steve Bolo Mboumoua"]
         },
         {
           "code": "DT",
           "label": "Defensive Tackle",
-          "players": [
-            "Kedrick Bingley-Jones",
-            "Devan Thompkins",
-            "Edric Hill",
-            "Steve Bolo Mboumoua"
-          ]
+          "players": ["London Simmons", "Isaia Faga", "Edric Hill"]
         },
         {
           "code": "WOLF",
           "label": "Wolf (Edge)",
-          "players": [
-            "Yhonzae Pierre",
-            "Justin Hill",
-            "Jah-Marien Latham",
-            "Jamarion Matthews"
-          ]
+          "players": ["Yhonzae Pierre", "Jah-Marien Latham", "Jamarion Matthews"]
         },
         {
           "code": "STING",
@@ -121,38 +110,32 @@
         {
           "code": "MLB",
           "label": "Middle Linebacker",
-          "players": [
-            "Caleb Woodson",
-            "Xavier Griffin",
-            "Cayden Jones",
-            "Duke Johnson II",
-            "Zay Hall"
-          ]
+          "players": ["Caleb Woodson", "Xavier Griffin", "Duke Johnson II"]
         },
         {
           "code": "LCB",
           "label": "Left Cornerback",
-          "players": ["Zabien Brown", "Zyan Gibson", "Nick Sherman"]
+          "players": ["Zabien Brown", "Zyan Gibson"]
         },
         {
           "code": "SS",
           "label": "Strong Safety",
-          "players": ["Keon Sabb", "Dre Kirkpatrick Jr.", "Ivan Taylor", "Jireh Edwards"]
+          "players": ["Keon Sabb", "Jireh Edwards"]
         },
         {
           "code": "FS",
           "label": "Free Safety",
-          "players": ["Bray Hubbard", "Zavier Mincey"]
+          "players": ["Bray Hubbard", "Ivan Taylor"]
         },
         {
           "code": "RCB",
           "label": "Right Cornerback",
-          "players": ["Dijon Lee Jr.", "Carmelo O'Neal", "Jorden Edmonds"]
+          "players": ["Dijon Lee Jr.", "Carmelo O'Neal"]
         },
         {
           "code": "HUSKY",
           "label": "Husky (Nickel)",
-          "players": ["Red Morgan", "Chuck McDonald III", "Rihyael Kelley"]
+          "players": ["Red Morgan", "Chuck McDonald III", "Dre Kirkpatrick Jr."]
         }
       ]
     },
@@ -169,32 +152,32 @@
         {
           "code": "PK",
           "label": "Place Kicker",
-          "players": ["Lorcan Quinn", "Conor Talty", "Tucker Cornelius"]
+          "players": ["Conor Talty", "Lorcan Quinn"]
         },
         {
           "code": "KO",
           "label": "Kickoff",
-          "players": ["Lorcan Quinn", "Conor Talty", "Tucker Cornelius"]
+          "players": ["Lorcan Quinn", "Conor Talty"]
         },
         {
           "code": "LS",
           "label": "Long Snapper",
-          "players": ["Ethan Stangle", "Alex Rozier", "Jay Williams", "Eli Deutsch"]
+          "players": ["Alex Rozier", "Ethan Stangle"]
         },
         {
           "code": "H",
           "label": "Holder",
-          "players": ["Alex Asparuhov", "Anderson Green"]
+          "players": ["Alex Asparuhov"]
         },
         {
           "code": "PR",
           "label": "Punt Returner",
-          "players": ["Ryan Coleman-Williams", "Dijon Lee Jr."]
+          "players": ["Ryan Coleman-Williams", "Dijon Lee Jr.", "Rico Scott"]
         },
         {
           "code": "KR",
           "label": "Kick Returner",
-          "players": ["Lotzeir Brooks", "Trae’shawn Brown"]
+          "players": ["Dijon Lee Jr.", "Rico Scott"]
         }
       ]
     }
