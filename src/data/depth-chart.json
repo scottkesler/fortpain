@@ -1,6 +1,6 @@
 {
   "opponent": null,
-  "updated": "2026-10-03",
+  "updated": "2026-10-10",
   "note": "Weekly depth chart. Player names must match src/data/players.json exactly — run `npm run validate:depth` after editing. Order within each slot is the depth: first name is the starter.",
   "units": [
     {
