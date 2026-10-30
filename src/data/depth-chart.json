@@ -1,6 +1,6 @@
 {
   "opponent": null,
-  "updated": "2026-10-10",
+  "updated": "2026-10-23",
   "note": "Weekly depth chart. Player names must match src/data/players.json exactly — run `npm run validate:depth` after editing. Order within each slot is the depth: first name is the starter.",
   "units": [
     {
@@ -11,17 +11,17 @@
         {
           "code": "WR-X",
           "label": "Wide Receiver (X)",
-          "players": ["Ryan Coleman-Williams", "Derek Meadows"]
+          "players": ["Derek Meadows", "Noah Rogers"]
         },
         {
           "code": "WR-Z",
           "label": "Wide Receiver (Z)",
-          "players": ["Rico Scott", "Noah Rogers", "Cederian Morgan"]
+          "players": ["Rico Scott", "Cederian Morgan", "Tyler Henderson"]
         },
         {
           "code": "WR-H",
           "label": "Wide Receiver (H)",
-          "players": ["Lotzeir Brooks", "Tyler Henderson"]
+          "players": ["Lotzeir Brooks", "MJ Chirgwin"]
         },
         {
           "code": "LT",
@@ -31,17 +31,17 @@
         {
           "code": "LG",
           "label": "Left Guard",
-          "players": ["William Sanders", "Mal Waldrep Jr.", "Kaden Strayhorn"]
+          "players": ["William Sanders", "Ethan Fields"]
         },
         {
           "code": "C",
           "label": "Center",
-          "players": ["Racin Delgatty", "Casey Poe"]
+          "players": ["Mal Waldrep Jr.", "Casey Poe"]
         },
         {
           "code": "RG",
           "label": "Right Guard",
-          "players": ["Michael Carroll", "Ethan Fields"]
+          "players": ["Michael Carroll", "Kaden Strayhorn"]
         },
         {
           "code": "RT",
@@ -70,9 +70,9 @@
           "players": [
             "Daniel Hill",
             "Trae’shawn Brown",
-            "AK Dear",
             "EJ Crowell",
-            "Kevin Riley"
+            "Kevin Riley",
+            "AK Dear"
           ]
         }
       ]
@@ -85,22 +85,22 @@
         {
           "code": "DE",
           "label": "Defensive End",
-          "players": ["Devan Thompkins", "Fatutoa Henry"]
+          "players": ["Devan Thompkins", "Jah-Marien Latham", "Fatutoa Henry"]
         },
         {
           "code": "NT",
           "label": "Nose Tackle",
-          "players": ["Terrance Green", "Kedrick Bingley-Jones", "Steve Bolo Mboumoua"]
+          "players": ["Kedrick Bingley-Jones", "Isaia Faga", "Steve Bolo Mboumoua"]
         },
         {
           "code": "DT",
           "label": "Defensive Tackle",
-          "players": ["London Simmons", "Isaia Faga", "Edric Hill"]
+          "players": ["London Simmons", "Edric Hill"]
         },
         {
           "code": "WOLF",
           "label": "Wolf (Edge)",
-          "players": ["Yhonzae Pierre", "Jah-Marien Latham", "Jamarion Matthews"]
+          "players": ["Yhonzae Pierre", "Justin Hill", "Jamarion Matthews"]
         },
         {
           "code": "STING",
@@ -120,7 +120,7 @@
         {
           "code": "SS",
           "label": "Strong Safety",
-          "players": ["Keon Sabb", "Jireh Edwards"]
+          "players": ["Keon Sabb", "Jireh Edwards", "Zavier Mincey"]
         },
         {
           "code": "FS",
@@ -135,7 +135,7 @@
         {
           "code": "HUSKY",
           "label": "Husky (Nickel)",
-          "players": ["Red Morgan", "Chuck McDonald III", "Dre Kirkpatrick Jr."]
+          "players": ["Red Morgan", "Chuck McDonald III"]
         }
       ]
     },
@@ -147,7 +147,7 @@
         {
           "code": "PT",
           "label": "Punter",
-          "players": ["Alex Asparuhov", "Adam Watford", "Anderson Green"]
+          "players": ["Alex Asparuhov", "Adam Watford"]
         },
         {
           "code": "PK",
@@ -172,7 +172,7 @@
         {
           "code": "PR",
           "label": "Punt Returner",
-          "players": ["Ryan Coleman-Williams", "Dijon Lee Jr.", "Rico Scott"]
+          "players": ["Rico Scott", "Dijon Lee Jr."]
         },
         {
           "code": "KR",
