@@ -1,6 +1,6 @@
 {
   "opponent": null,
-  "updated": "2026-10-23",
+  "updated": "2026-11-14",
   "note": "Weekly depth chart. Player names must match src/data/players.json exactly — run `npm run validate:depth` after editing. Order within each slot is the depth: first name is the starter.",
   "units": [
     {
@@ -11,7 +11,7 @@
         {
           "code": "WR-X",
           "label": "Wide Receiver (X)",
-          "players": ["Derek Meadows", "Noah Rogers"]
+          "players": ["Ryan Coleman-Williams", "Derek Meadows", "Noah Rogers"]
         },
         {
           "code": "WR-Z",
@@ -31,12 +31,12 @@
         {
           "code": "LG",
           "label": "Left Guard",
-          "players": ["William Sanders", "Ethan Fields"]
+          "players": ["Mal Waldrep Jr.", "William Sanders", "Ethan Fields"]
         },
         {
           "code": "C",
           "label": "Center",
-          "players": ["Mal Waldrep Jr.", "Casey Poe"]
+          "players": ["Racin Delgatty"]
         },
         {
           "code": "RG",
@@ -51,13 +51,7 @@
         {
           "code": "TE",
           "label": "Tight End",
-          "players": [
-            "Kaleb Edwards",
-            "Josh Ford",
-            "Marshall Pritchett",
-            "Danny Lewis Jr.",
-            "Jay Lindsey"
-          ]
+          "players": ["Kaleb Edwards", "Marshall Pritchett", "Danny Lewis Jr.", "Jay Lindsey"]
         },
         {
           "code": "QB",
@@ -67,13 +61,7 @@
         {
           "code": "RB",
           "label": "Running Back",
-          "players": [
-            "Daniel Hill",
-            "Trae’shawn Brown",
-            "EJ Crowell",
-            "Kevin Riley",
-            "AK Dear"
-          ]
+          "players": ["Daniel Hill", "Trae’shawn Brown", "EJ Crowell", "Kevin Riley", "Khalifa Keith"]
         }
       ]
     },
@@ -90,12 +78,12 @@
         {
           "code": "NT",
           "label": "Nose Tackle",
-          "players": ["Kedrick Bingley-Jones", "Isaia Faga", "Steve Bolo Mboumoua"]
+          "players": ["Terrance Green", "Isaia Faga", "Steve Bolo Mboumoua"]
         },
         {
           "code": "DT",
           "label": "Defensive Tackle",
-          "players": ["London Simmons", "Edric Hill"]
+          "players": ["London Simmons", "Kedrick Bingley-Jones", "Edric Hill"]
         },
         {
           "code": "WOLF",
@@ -115,7 +103,7 @@
         {
           "code": "LCB",
           "label": "Left Cornerback",
-          "players": ["Zabien Brown", "Zyan Gibson"]
+          "players": ["Dijon Lee Jr.", "Carmelo O'Neal"]
         },
         {
           "code": "SS",
@@ -130,7 +118,7 @@
         {
           "code": "RCB",
           "label": "Right Cornerback",
-          "players": ["Dijon Lee Jr.", "Carmelo O'Neal"]
+          "players": ["Zabien Brown", "Zyan Gibson"]
         },
         {
           "code": "HUSKY",
